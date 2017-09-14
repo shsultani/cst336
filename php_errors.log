@@ -1,0 +1,385 @@
+[14-Sep-2017 19:20:52 UTC] PHP Parse error:  syntax error, unexpected 'break' (T_BREAK) in /home/ubuntu/workspace/cst336-github/777/index.php on line 24
+[14-Sep-2017 19:21:03 UTC] PHP Parse error:  syntax error, unexpected 'img' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336-github/777/index.php on line 26
+[14-Sep-2017 20:11:34 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 44 and defined in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 2
+[14-Sep-2017 20:11:34 UTC] PHP Stack trace:
+[14-Sep-2017 20:11:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/777/index.php:0
+[14-Sep-2017 20:11:34 UTC] PHP   2. play() /home/ubuntu/workspace/cst336-github/777/index.php:17
+[14-Sep-2017 20:11:34 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:44
+[14-Sep-2017 20:11:34 UTC] PHP Fatal error:  Maximum function nesting level of '256' reached, aborting! in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 5
+[14-Sep-2017 20:11:34 UTC] PHP Stack trace:
+[14-Sep-2017 20:11:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/777/index.php:0
+[14-Sep-2017 20:11:34 UTC] PHP   2. play() /home/ubuntu/workspace/cst336-github/777/index.php:17
+[14-Sep-2017 20:11:34 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:44
+[14-Sep-2017 20:11:34 UTC] PHP   4. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP   5. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP   6. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP   7. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP   8. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP   9. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  10. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  11. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  12. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  13. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  14. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  15. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  16. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  17. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  18. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  19. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  20. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  21. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  22. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  23. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  24. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  25. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  26. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  27. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  28. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  29. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  30. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  31. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  32. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  33. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  34. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  35. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  36. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  37. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  38. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  39. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  40. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  41. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  42. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  43. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  44. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  45. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  46. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  47. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  48. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  49. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  50. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  51. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  52. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  53. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  54. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  55. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  56. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  57. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  58. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  59. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  60. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  61. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  62. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  63. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  64. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  65. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  66. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  67. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  68. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  69. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  70. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  71. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  72. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  73. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  74. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  75. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  76. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  77. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  78. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  79. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  80. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  81. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  82. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  83. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  84. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  85. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  86. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  87. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  88. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  89. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  90. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  91. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  92. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  93. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  94. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  95. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  96. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  97. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  98. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP  99. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 100. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 101. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 102. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 103. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 104. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 105. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 106. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 107. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 108. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 109. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 110. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 111. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 112. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 113. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 114. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 115. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 116. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 117. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 118. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 119. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 120. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 121. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 122. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 123. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 124. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 125. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 126. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 127. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 128. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 129. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 130. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 131. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 132. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 133. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 134. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 135. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 136. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 137. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 138. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 139. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 140. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 141. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 142. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 143. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 144. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 145. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 146. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 147. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 148. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 149. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 150. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 151. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 152. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 153. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 154. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 155. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 156. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 157. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 158. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 159. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 160. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 161. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 162. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 163. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 164. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 165. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 166. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 167. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 168. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 169. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 170. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 171. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 172. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 173. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 174. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 175. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 176. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 177. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 178. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 179. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 180. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 181. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 182. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 183. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 184. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 185. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 186. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 187. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 188. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 189. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 190. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 191. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 192. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 193. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 194. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 195. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 196. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 197. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 198. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 199. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 200. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 201. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 202. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 203. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 204. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 205. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 206. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 207. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 208. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 209. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 210. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 211. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 212. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 213. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 214. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 215. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 216. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 217. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 218. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 219. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 220. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 221. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 222. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 223. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 224. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 225. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 226. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 227. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 228. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 229. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 230. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 231. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 232. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 233. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 234. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 235. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 236. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 237. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 238. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 239. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 240. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 241. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 242. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 243. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 244. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 245. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 246. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 247. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 248. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 249. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 250. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 251. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 252. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 253. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 254. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 255. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:11:34 UTC] PHP 256. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:6
+[14-Sep-2017 20:18:43 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 43 and defined in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 2
+[14-Sep-2017 20:18:43 UTC] PHP Stack trace:
+[14-Sep-2017 20:18:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/777/index.php:0
+[14-Sep-2017 20:18:43 UTC] PHP   2. play() /home/ubuntu/workspace/cst336-github/777/index.php:17
+[14-Sep-2017 20:18:43 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:43
+[14-Sep-2017 20:18:43 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 43 and defined in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 2
+[14-Sep-2017 20:18:43 UTC] PHP Stack trace:
+[14-Sep-2017 20:18:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/777/index.php:0
+[14-Sep-2017 20:18:43 UTC] PHP   2. play() /home/ubuntu/workspace/cst336-github/777/index.php:17
+[14-Sep-2017 20:18:43 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:43
+[14-Sep-2017 20:18:43 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 43 and defined in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 2
+[14-Sep-2017 20:18:43 UTC] PHP Stack trace:
+[14-Sep-2017 20:18:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/777/index.php:0
+[14-Sep-2017 20:18:43 UTC] PHP   2. play() /home/ubuntu/workspace/cst336-github/777/index.php:17
+[14-Sep-2017 20:18:43 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:43
+[14-Sep-2017 20:20:20 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 47 and defined in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 2
+[14-Sep-2017 20:20:20 UTC] PHP Stack trace:
+[14-Sep-2017 20:20:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/777/index.php:0
+[14-Sep-2017 20:20:20 UTC] PHP   2. play() /home/ubuntu/workspace/cst336-github/777/index.php:17
+[14-Sep-2017 20:20:20 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:47
+[14-Sep-2017 20:20:20 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 47 and defined in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 2
+[14-Sep-2017 20:20:20 UTC] PHP Stack trace:
+[14-Sep-2017 20:20:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/777/index.php:0
+[14-Sep-2017 20:20:20 UTC] PHP   2. play() /home/ubuntu/workspace/cst336-github/777/index.php:17
+[14-Sep-2017 20:20:20 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:47
+[14-Sep-2017 20:20:20 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 47 and defined in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 2
+[14-Sep-2017 20:20:20 UTC] PHP Stack trace:
+[14-Sep-2017 20:20:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/777/index.php:0
+[14-Sep-2017 20:20:20 UTC] PHP   2. play() /home/ubuntu/workspace/cst336-github/777/index.php:17
+[14-Sep-2017 20:20:20 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:47
+[14-Sep-2017 20:21:18 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 47 and defined in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 2
+[14-Sep-2017 20:21:18 UTC] PHP Stack trace:
+[14-Sep-2017 20:21:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/777/index.php:0
+[14-Sep-2017 20:21:18 UTC] PHP   2. play() /home/ubuntu/workspace/cst336-github/777/index.php:17
+[14-Sep-2017 20:21:18 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:47
+[14-Sep-2017 20:21:18 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 47 and defined in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 2
+[14-Sep-2017 20:21:18 UTC] PHP Stack trace:
+[14-Sep-2017 20:21:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/777/index.php:0
+[14-Sep-2017 20:21:18 UTC] PHP   2. play() /home/ubuntu/workspace/cst336-github/777/index.php:17
+[14-Sep-2017 20:21:18 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:47
+[14-Sep-2017 20:21:18 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 47 and defined in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 2
+[14-Sep-2017 20:21:18 UTC] PHP Stack trace:
+[14-Sep-2017 20:21:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/777/index.php:0
+[14-Sep-2017 20:21:18 UTC] PHP   2. play() /home/ubuntu/workspace/cst336-github/777/index.php:17
+[14-Sep-2017 20:21:18 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:47
+[14-Sep-2017 20:21:22 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 47 and defined in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 2
+[14-Sep-2017 20:21:22 UTC] PHP Stack trace:
+[14-Sep-2017 20:21:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/777/index.php:0
+[14-Sep-2017 20:21:22 UTC] PHP   2. play() /home/ubuntu/workspace/cst336-github/777/index.php:17
+[14-Sep-2017 20:21:22 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:47
+[14-Sep-2017 20:21:22 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 47 and defined in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 2
+[14-Sep-2017 20:21:22 UTC] PHP Stack trace:
+[14-Sep-2017 20:21:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/777/index.php:0
+[14-Sep-2017 20:21:22 UTC] PHP   2. play() /home/ubuntu/workspace/cst336-github/777/index.php:17
+[14-Sep-2017 20:21:22 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:47
+[14-Sep-2017 20:21:22 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 47 and defined in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 2
+[14-Sep-2017 20:21:22 UTC] PHP Stack trace:
+[14-Sep-2017 20:21:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/777/index.php:0
+[14-Sep-2017 20:21:22 UTC] PHP   2. play() /home/ubuntu/workspace/cst336-github/777/index.php:17
+[14-Sep-2017 20:21:22 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:47
+[14-Sep-2017 20:21:23 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 47 and defined in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 2
+[14-Sep-2017 20:21:23 UTC] PHP Stack trace:
+[14-Sep-2017 20:21:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/777/index.php:0
+[14-Sep-2017 20:21:23 UTC] PHP   2. play() /home/ubuntu/workspace/cst336-github/777/index.php:17
+[14-Sep-2017 20:21:23 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:47
+[14-Sep-2017 20:21:23 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 47 and defined in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 2
+[14-Sep-2017 20:21:23 UTC] PHP Stack trace:
+[14-Sep-2017 20:21:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/777/index.php:0
+[14-Sep-2017 20:21:23 UTC] PHP   2. play() /home/ubuntu/workspace/cst336-github/777/index.php:17
+[14-Sep-2017 20:21:23 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:47
+[14-Sep-2017 20:21:23 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 47 and defined in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 2
+[14-Sep-2017 20:21:23 UTC] PHP Stack trace:
+[14-Sep-2017 20:21:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/777/index.php:0
+[14-Sep-2017 20:21:23 UTC] PHP   2. play() /home/ubuntu/workspace/cst336-github/777/index.php:17
+[14-Sep-2017 20:21:23 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:47
+[14-Sep-2017 20:23:31 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 47 and defined in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 2
+[14-Sep-2017 20:23:31 UTC] PHP Stack trace:
+[14-Sep-2017 20:23:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/777/index.php:0
+[14-Sep-2017 20:23:31 UTC] PHP   2. play() /home/ubuntu/workspace/cst336-github/777/index.php:18
+[14-Sep-2017 20:23:31 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:47
+[14-Sep-2017 20:23:31 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 47 and defined in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 2
+[14-Sep-2017 20:23:31 UTC] PHP Stack trace:
+[14-Sep-2017 20:23:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/777/index.php:0
+[14-Sep-2017 20:23:31 UTC] PHP   2. play() /home/ubuntu/workspace/cst336-github/777/index.php:18
+[14-Sep-2017 20:23:31 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:47
+[14-Sep-2017 20:23:31 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 47 and defined in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 2
+[14-Sep-2017 20:23:31 UTC] PHP Stack trace:
+[14-Sep-2017 20:23:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/777/index.php:0
+[14-Sep-2017 20:23:31 UTC] PHP   2. play() /home/ubuntu/workspace/cst336-github/777/index.php:18
+[14-Sep-2017 20:23:31 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:47
+[14-Sep-2017 20:23:33 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 47 and defined in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 2
+[14-Sep-2017 20:23:33 UTC] PHP Stack trace:
+[14-Sep-2017 20:23:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/777/index.php:0
+[14-Sep-2017 20:23:33 UTC] PHP   2. play() /home/ubuntu/workspace/cst336-github/777/index.php:18
+[14-Sep-2017 20:23:33 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:47
+[14-Sep-2017 20:23:33 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 47 and defined in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 2
+[14-Sep-2017 20:23:33 UTC] PHP Stack trace:
+[14-Sep-2017 20:23:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/777/index.php:0
+[14-Sep-2017 20:23:33 UTC] PHP   2. play() /home/ubuntu/workspace/cst336-github/777/index.php:18
+[14-Sep-2017 20:23:33 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:47
+[14-Sep-2017 20:23:33 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 47 and defined in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 2
+[14-Sep-2017 20:23:33 UTC] PHP Stack trace:
+[14-Sep-2017 20:23:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/777/index.php:0
+[14-Sep-2017 20:23:33 UTC] PHP   2. play() /home/ubuntu/workspace/cst336-github/777/index.php:18
+[14-Sep-2017 20:23:33 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:47
+[14-Sep-2017 20:23:34 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 47 and defined in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 2
+[14-Sep-2017 20:23:34 UTC] PHP Stack trace:
+[14-Sep-2017 20:23:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/777/index.php:0
+[14-Sep-2017 20:23:34 UTC] PHP   2. play() /home/ubuntu/workspace/cst336-github/777/index.php:18
+[14-Sep-2017 20:23:34 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:47
+[14-Sep-2017 20:23:34 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 47 and defined in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 2
+[14-Sep-2017 20:23:34 UTC] PHP Stack trace:
+[14-Sep-2017 20:23:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/777/index.php:0
+[14-Sep-2017 20:23:34 UTC] PHP   2. play() /home/ubuntu/workspace/cst336-github/777/index.php:18
+[14-Sep-2017 20:23:34 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:47
+[14-Sep-2017 20:23:34 UTC] PHP Warning:  Missing argument 2 for displaySymbol(), called in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 47 and defined in /home/ubuntu/workspace/cst336-github/777/inc/functions.php on line 2
+[14-Sep-2017 20:23:34 UTC] PHP Stack trace:
+[14-Sep-2017 20:23:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/777/index.php:0
+[14-Sep-2017 20:23:34 UTC] PHP   2. play() /home/ubuntu/workspace/cst336-github/777/index.php:18
+[14-Sep-2017 20:23:34 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:47
