@@ -383,3 +383,691 @@
 [14-Sep-2017 20:23:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/777/index.php:0
 [14-Sep-2017 20:23:34 UTC] PHP   2. play() /home/ubuntu/workspace/cst336-github/777/index.php:18
 [14-Sep-2017 20:23:34 UTC] PHP   3. displaySymbol() /home/ubuntu/workspace/cst336-github/777/inc/functions.php:47
+[19-Sep-2017 22:44:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 195
+[19-Sep-2017 22:44:22 UTC] PHP Stack trace:
+[19-Sep-2017 22:44:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[19-Sep-2017 22:44:22 UTC] PHP   2. displayPerson1() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:202
+[19-Sep-2017 22:44:22 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:130
+[19-Sep-2017 22:44:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 195
+[19-Sep-2017 22:44:22 UTC] PHP Stack trace:
+[19-Sep-2017 22:44:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[19-Sep-2017 22:44:22 UTC] PHP   2. displayPerson2() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:203
+[19-Sep-2017 22:44:22 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:150
+[19-Sep-2017 22:44:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 195
+[19-Sep-2017 22:44:22 UTC] PHP Stack trace:
+[19-Sep-2017 22:44:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[19-Sep-2017 22:44:22 UTC] PHP   2. displayPerson3() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:204
+[19-Sep-2017 22:44:22 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:169
+[19-Sep-2017 22:44:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 195
+[19-Sep-2017 22:44:22 UTC] PHP Stack trace:
+[19-Sep-2017 22:44:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[19-Sep-2017 22:44:22 UTC] PHP   2. displayPerson4() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:205
+[19-Sep-2017 22:44:22 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:188
+[20-Sep-2017 23:15:27 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting ')' in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 96
+[20-Sep-2017 23:16:03 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL), expecting ')' in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 96
+[21-Sep-2017 00:08:56 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:08:56 UTC] PHP Stack trace:
+[21-Sep-2017 00:08:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:08:56 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:08:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:08:56 UTC] PHP Stack trace:
+[21-Sep-2017 00:08:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:08:56 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:08:56 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:08:59 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:08:59 UTC] PHP Stack trace:
+[21-Sep-2017 00:08:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:08:59 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:08:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:08:59 UTC] PHP Stack trace:
+[21-Sep-2017 00:08:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:08:59 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:08:59 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:09:02 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:09:02 UTC] PHP Stack trace:
+[21-Sep-2017 00:09:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:09:02 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:09:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:09:02 UTC] PHP Stack trace:
+[21-Sep-2017 00:09:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:09:02 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:09:02 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:09:02 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:09:02 UTC] PHP Stack trace:
+[21-Sep-2017 00:09:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:09:02 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:09:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:09:02 UTC] PHP Stack trace:
+[21-Sep-2017 00:09:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:09:02 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:09:02 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:09:04 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:09:04 UTC] PHP Stack trace:
+[21-Sep-2017 00:09:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:09:04 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:09:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:09:04 UTC] PHP Stack trace:
+[21-Sep-2017 00:09:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:09:04 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:09:04 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:09:06 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:09:06 UTC] PHP Stack trace:
+[21-Sep-2017 00:09:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:09:06 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:09:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:09:06 UTC] PHP Stack trace:
+[21-Sep-2017 00:09:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:09:06 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:09:06 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:09:07 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:09:07 UTC] PHP Stack trace:
+[21-Sep-2017 00:09:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:09:07 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:09:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:09:07 UTC] PHP Stack trace:
+[21-Sep-2017 00:09:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:09:07 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:09:07 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:09:08 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:09:08 UTC] PHP Stack trace:
+[21-Sep-2017 00:09:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:09:08 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:09:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:09:08 UTC] PHP Stack trace:
+[21-Sep-2017 00:09:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:09:08 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:09:08 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:09:14 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:09:14 UTC] PHP Stack trace:
+[21-Sep-2017 00:09:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:09:14 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:09:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:09:14 UTC] PHP Stack trace:
+[21-Sep-2017 00:09:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:09:14 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:09:14 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:09:16 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:09:16 UTC] PHP Stack trace:
+[21-Sep-2017 00:09:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:09:16 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:09:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:09:16 UTC] PHP Stack trace:
+[21-Sep-2017 00:09:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:09:16 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:09:16 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:09:47 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:09:47 UTC] PHP Stack trace:
+[21-Sep-2017 00:09:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:09:47 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:09:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:09:47 UTC] PHP Stack trace:
+[21-Sep-2017 00:09:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:09:47 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:09:47 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:09:50 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:09:50 UTC] PHP Stack trace:
+[21-Sep-2017 00:09:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:09:50 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:09:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:09:50 UTC] PHP Stack trace:
+[21-Sep-2017 00:09:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:09:50 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:09:50 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:09:51 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:09:51 UTC] PHP Stack trace:
+[21-Sep-2017 00:09:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:09:51 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:09:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:09:51 UTC] PHP Stack trace:
+[21-Sep-2017 00:09:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:09:51 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:09:51 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:10:09 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:10:09 UTC] PHP Stack trace:
+[21-Sep-2017 00:10:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:10:09 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:10:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:10:09 UTC] PHP Stack trace:
+[21-Sep-2017 00:10:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:10:09 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:10:09 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:10:15 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:10:15 UTC] PHP Stack trace:
+[21-Sep-2017 00:10:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:10:15 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:10:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:10:15 UTC] PHP Stack trace:
+[21-Sep-2017 00:10:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:10:15 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:10:15 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:10:22 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:10:22 UTC] PHP Stack trace:
+[21-Sep-2017 00:10:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:10:22 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:10:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:10:22 UTC] PHP Stack trace:
+[21-Sep-2017 00:10:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:10:22 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:10:22 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:10:24 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:10:24 UTC] PHP Stack trace:
+[21-Sep-2017 00:10:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:10:24 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:10:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:10:24 UTC] PHP Stack trace:
+[21-Sep-2017 00:10:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:10:24 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:10:24 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:10:34 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:10:34 UTC] PHP Stack trace:
+[21-Sep-2017 00:10:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:10:34 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:10:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:10:34 UTC] PHP Stack trace:
+[21-Sep-2017 00:10:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:10:34 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:10:34 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:10:41 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:10:41 UTC] PHP Stack trace:
+[21-Sep-2017 00:10:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:10:41 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:10:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:10:41 UTC] PHP Stack trace:
+[21-Sep-2017 00:10:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:10:41 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:10:41 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:10:47 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:10:47 UTC] PHP Stack trace:
+[21-Sep-2017 00:10:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:10:47 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:10:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:10:47 UTC] PHP Stack trace:
+[21-Sep-2017 00:10:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:10:47 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:10:47 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:10:49 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:10:49 UTC] PHP Stack trace:
+[21-Sep-2017 00:10:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:10:49 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:10:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:10:49 UTC] PHP Stack trace:
+[21-Sep-2017 00:10:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:10:49 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:10:49 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:11:13 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:11:13 UTC] PHP Stack trace:
+[21-Sep-2017 00:11:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:11:13 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:11:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:11:13 UTC] PHP Stack trace:
+[21-Sep-2017 00:11:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:11:13 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:11:13 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:11:16 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:11:16 UTC] PHP Stack trace:
+[21-Sep-2017 00:11:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:11:16 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:11:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:11:16 UTC] PHP Stack trace:
+[21-Sep-2017 00:11:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:11:16 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:11:16 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:11:18 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:11:18 UTC] PHP Stack trace:
+[21-Sep-2017 00:11:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:11:18 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:11:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:11:18 UTC] PHP Stack trace:
+[21-Sep-2017 00:11:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:11:18 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:11:18 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:11:19 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:11:19 UTC] PHP Stack trace:
+[21-Sep-2017 00:11:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:11:19 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:11:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:11:19 UTC] PHP Stack trace:
+[21-Sep-2017 00:11:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:11:19 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:11:19 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:11:20 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:11:20 UTC] PHP Stack trace:
+[21-Sep-2017 00:11:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:11:20 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:11:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:11:20 UTC] PHP Stack trace:
+[21-Sep-2017 00:11:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:11:20 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:11:20 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:11:21 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:11:21 UTC] PHP Stack trace:
+[21-Sep-2017 00:11:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:11:21 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:11:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:11:21 UTC] PHP Stack trace:
+[21-Sep-2017 00:11:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:11:21 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:11:21 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:11:22 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:11:22 UTC] PHP Stack trace:
+[21-Sep-2017 00:11:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:11:22 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:11:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:11:22 UTC] PHP Stack trace:
+[21-Sep-2017 00:11:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:11:22 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:11:22 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:11:23 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:11:23 UTC] PHP Stack trace:
+[21-Sep-2017 00:11:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:11:23 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:11:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:11:23 UTC] PHP Stack trace:
+[21-Sep-2017 00:11:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:11:23 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:11:23 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:11:29 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:11:29 UTC] PHP Stack trace:
+[21-Sep-2017 00:11:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:11:29 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:11:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:11:29 UTC] PHP Stack trace:
+[21-Sep-2017 00:11:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:11:29 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:11:29 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:11:30 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:11:30 UTC] PHP Stack trace:
+[21-Sep-2017 00:11:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:11:30 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:11:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:11:30 UTC] PHP Stack trace:
+[21-Sep-2017 00:11:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:11:30 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:11:30 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:11:31 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:11:31 UTC] PHP Stack trace:
+[21-Sep-2017 00:11:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:11:31 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:11:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:11:31 UTC] PHP Stack trace:
+[21-Sep-2017 00:11:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:11:31 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:11:31 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:11:32 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:11:32 UTC] PHP Stack trace:
+[21-Sep-2017 00:11:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:11:32 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:11:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:11:32 UTC] PHP Stack trace:
+[21-Sep-2017 00:11:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:11:32 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:11:32 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:11:36 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:11:36 UTC] PHP Stack trace:
+[21-Sep-2017 00:11:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:11:36 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:11:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:11:36 UTC] PHP Stack trace:
+[21-Sep-2017 00:11:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:11:36 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:11:36 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:12:57 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:12:57 UTC] PHP Stack trace:
+[21-Sep-2017 00:12:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:12:57 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:12:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:12:57 UTC] PHP Stack trace:
+[21-Sep-2017 00:12:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:12:57 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:12:57 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:13:52 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:13:52 UTC] PHP Stack trace:
+[21-Sep-2017 00:13:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:13:52 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:13:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:13:52 UTC] PHP Stack trace:
+[21-Sep-2017 00:13:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:13:52 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:13:52 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:13:56 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:13:56 UTC] PHP Stack trace:
+[21-Sep-2017 00:13:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:13:56 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:13:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:13:56 UTC] PHP Stack trace:
+[21-Sep-2017 00:13:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:13:56 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:13:56 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:13:57 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:13:57 UTC] PHP Stack trace:
+[21-Sep-2017 00:13:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:13:57 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:13:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:13:57 UTC] PHP Stack trace:
+[21-Sep-2017 00:13:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:13:57 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:13:57 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:13:58 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:13:58 UTC] PHP Stack trace:
+[21-Sep-2017 00:13:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:13:58 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:13:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:13:58 UTC] PHP Stack trace:
+[21-Sep-2017 00:13:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:13:58 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:13:58 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:13:59 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:13:59 UTC] PHP Stack trace:
+[21-Sep-2017 00:13:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:13:59 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:13:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:13:59 UTC] PHP Stack trace:
+[21-Sep-2017 00:13:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:13:59 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:13:59 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:14:01 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:14:01 UTC] PHP Stack trace:
+[21-Sep-2017 00:14:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:14:01 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:14:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:14:01 UTC] PHP Stack trace:
+[21-Sep-2017 00:14:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:14:01 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:14:01 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:17:08 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:17:08 UTC] PHP Stack trace:
+[21-Sep-2017 00:17:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:17:08 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:17:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:17:08 UTC] PHP Stack trace:
+[21-Sep-2017 00:17:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:17:08 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:17:08 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:17:30 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:17:30 UTC] PHP Stack trace:
+[21-Sep-2017 00:17:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:17:30 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:17:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:17:30 UTC] PHP Stack trace:
+[21-Sep-2017 00:17:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:17:30 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:17:30 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:17:33 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:17:33 UTC] PHP Stack trace:
+[21-Sep-2017 00:17:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:17:33 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:17:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:17:33 UTC] PHP Stack trace:
+[21-Sep-2017 00:17:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:17:33 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:17:33 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:17:35 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:17:35 UTC] PHP Stack trace:
+[21-Sep-2017 00:17:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:17:35 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:17:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:17:35 UTC] PHP Stack trace:
+[21-Sep-2017 00:17:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:17:35 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:17:35 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:17:36 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:17:36 UTC] PHP Stack trace:
+[21-Sep-2017 00:17:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:17:36 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:17:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:17:36 UTC] PHP Stack trace:
+[21-Sep-2017 00:17:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:17:36 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:17:36 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:17:38 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:17:38 UTC] PHP Stack trace:
+[21-Sep-2017 00:17:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:17:38 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:17:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:17:38 UTC] PHP Stack trace:
+[21-Sep-2017 00:17:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:17:38 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:17:38 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:18:26 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:18:26 UTC] PHP Stack trace:
+[21-Sep-2017 00:18:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:18:26 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:18:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:18:26 UTC] PHP Stack trace:
+[21-Sep-2017 00:18:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:18:26 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:18:26 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:18:48 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:18:48 UTC] PHP Stack trace:
+[21-Sep-2017 00:18:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:18:48 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:18:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:18:48 UTC] PHP Stack trace:
+[21-Sep-2017 00:18:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:18:48 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:18:48 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:18:51 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:18:51 UTC] PHP Stack trace:
+[21-Sep-2017 00:18:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:18:51 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:18:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:18:51 UTC] PHP Stack trace:
+[21-Sep-2017 00:18:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:18:51 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:18:51 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:18:52 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:18:52 UTC] PHP Stack trace:
+[21-Sep-2017 00:18:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:18:52 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:18:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:18:52 UTC] PHP Stack trace:
+[21-Sep-2017 00:18:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:18:52 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:18:52 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:18:53 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:18:53 UTC] PHP Stack trace:
+[21-Sep-2017 00:18:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:18:53 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:18:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:18:53 UTC] PHP Stack trace:
+[21-Sep-2017 00:18:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:18:53 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:18:53 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:18:54 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:18:54 UTC] PHP Stack trace:
+[21-Sep-2017 00:18:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:18:54 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:18:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:18:54 UTC] PHP Stack trace:
+[21-Sep-2017 00:18:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:18:54 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:18:54 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:19:43 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 277 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:19:43 UTC] PHP Stack trace:
+[21-Sep-2017 00:19:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:19:43 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:19:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:19:43 UTC] PHP Stack trace:
+[21-Sep-2017 00:19:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:19:43 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:277
+[21-Sep-2017 00:19:43 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:19:59 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 279 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:19:59 UTC] PHP Stack trace:
+[21-Sep-2017 00:19:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:19:59 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:279
+[21-Sep-2017 00:19:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:19:59 UTC] PHP Stack trace:
+[21-Sep-2017 00:19:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:19:59 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:279
+[21-Sep-2017 00:19:59 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:20:15 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 280 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:20:15 UTC] PHP Stack trace:
+[21-Sep-2017 00:20:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:20:15 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:20:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:20:15 UTC] PHP Stack trace:
+[21-Sep-2017 00:20:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:20:15 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:20:15 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:20:36 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 280 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:20:36 UTC] PHP Stack trace:
+[21-Sep-2017 00:20:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:20:36 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:20:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:20:36 UTC] PHP Stack trace:
+[21-Sep-2017 00:20:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:20:36 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:20:36 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:20:48 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 280 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:20:48 UTC] PHP Stack trace:
+[21-Sep-2017 00:20:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:20:48 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:20:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:20:48 UTC] PHP Stack trace:
+[21-Sep-2017 00:20:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:20:48 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:20:48 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:21:05 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 280 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:21:05 UTC] PHP Stack trace:
+[21-Sep-2017 00:21:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:21:05 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:21:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:21:05 UTC] PHP Stack trace:
+[21-Sep-2017 00:21:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:21:05 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:21:05 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:21:20 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 280 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:21:20 UTC] PHP Stack trace:
+[21-Sep-2017 00:21:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:21:20 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:21:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:21:20 UTC] PHP Stack trace:
+[21-Sep-2017 00:21:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:21:20 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:21:20 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:21:42 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 280 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:21:42 UTC] PHP Stack trace:
+[21-Sep-2017 00:21:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:21:42 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:21:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:21:42 UTC] PHP Stack trace:
+[21-Sep-2017 00:21:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:21:42 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:21:42 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:21:51 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 280 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:21:51 UTC] PHP Stack trace:
+[21-Sep-2017 00:21:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:21:51 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:21:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:21:51 UTC] PHP Stack trace:
+[21-Sep-2017 00:21:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:21:51 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:21:51 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:22:02 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 280 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:22:02 UTC] PHP Stack trace:
+[21-Sep-2017 00:22:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:22:02 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:22:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:22:02 UTC] PHP Stack trace:
+[21-Sep-2017 00:22:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:22:02 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:22:02 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:22:45 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 280 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:22:45 UTC] PHP Stack trace:
+[21-Sep-2017 00:22:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:22:45 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:22:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:22:45 UTC] PHP Stack trace:
+[21-Sep-2017 00:22:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:22:45 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:22:45 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:23:48 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 280 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:23:48 UTC] PHP Stack trace:
+[21-Sep-2017 00:23:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:23:48 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:23:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:23:48 UTC] PHP Stack trace:
+[21-Sep-2017 00:23:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:23:48 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:23:48 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:23:51 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 280 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:23:51 UTC] PHP Stack trace:
+[21-Sep-2017 00:23:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:23:51 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:23:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:23:51 UTC] PHP Stack trace:
+[21-Sep-2017 00:23:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:23:51 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:23:51 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:23:52 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 280 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:23:52 UTC] PHP Stack trace:
+[21-Sep-2017 00:23:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:23:52 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:23:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:23:52 UTC] PHP Stack trace:
+[21-Sep-2017 00:23:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:23:52 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:23:52 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:23:54 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 280 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:23:54 UTC] PHP Stack trace:
+[21-Sep-2017 00:23:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:23:54 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:23:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:23:54 UTC] PHP Stack trace:
+[21-Sep-2017 00:23:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:23:54 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:23:54 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:23:56 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 280 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:23:56 UTC] PHP Stack trace:
+[21-Sep-2017 00:23:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:23:56 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:23:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:23:56 UTC] PHP Stack trace:
+[21-Sep-2017 00:23:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:23:56 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:23:56 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:31:30 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 280 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:31:30 UTC] PHP Stack trace:
+[21-Sep-2017 00:31:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:31:30 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:31:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:31:30 UTC] PHP Stack trace:
+[21-Sep-2017 00:31:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:31:30 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:31:30 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:36:49 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 280 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:36:49 UTC] PHP Stack trace:
+[21-Sep-2017 00:36:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:36:49 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:36:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:36:49 UTC] PHP Stack trace:
+[21-Sep-2017 00:36:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:36:49 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:36:49 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:36:51 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 280 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:36:51 UTC] PHP Stack trace:
+[21-Sep-2017 00:36:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:36:51 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:36:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:36:51 UTC] PHP Stack trace:
+[21-Sep-2017 00:36:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:36:51 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:36:51 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[21-Sep-2017 00:56:15 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 280 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[21-Sep-2017 00:56:15 UTC] PHP Stack trace:
+[21-Sep-2017 00:56:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:56:15 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:56:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[21-Sep-2017 00:56:15 UTC] PHP Stack trace:
+[21-Sep-2017 00:56:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[21-Sep-2017 00:56:15 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:280
+[21-Sep-2017 00:56:15 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[25-Sep-2017 06:08:32 UTC] PHP Warning:  Missing argument 1 for displayPerson(), called in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 273 and defined in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 147
+[25-Sep-2017 06:08:32 UTC] PHP Stack trace:
+[25-Sep-2017 06:08:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[25-Sep-2017 06:08:32 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:273
+[25-Sep-2017 06:08:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/silverjack/lab3.php on line 229
+[25-Sep-2017 06:08:32 UTC] PHP Stack trace:
+[25-Sep-2017 06:08:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
+[25-Sep-2017 06:08:32 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:273
+[25-Sep-2017 06:08:32 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
