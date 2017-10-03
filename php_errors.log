@@ -1071,3 +1071,12 @@
 [25-Sep-2017 06:08:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:0
 [25-Sep-2017 06:08:32 UTC] PHP   2. displayPerson() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:273
 [25-Sep-2017 06:08:32 UTC] PHP   3. calculateHandValue() /home/ubuntu/workspace/cst336-github/silverjack/lab3.php:163
+[30-Sep-2017 23:42:00 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336-github/lab4/index.php on line 51
+[30-Sep-2017 23:42:00 UTC] PHP Stack trace:
+[30-Sep-2017 23:42:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab4/index.php:0
+[02-Oct-2017 23:52:28 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336-github/lab4/index.php on line 61
+[02-Oct-2017 23:52:28 UTC] PHP Stack trace:
+[02-Oct-2017 23:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab4/index.php:0
+[03-Oct-2017 02:12:18 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336-github/lab4/index.php on line 61
+[03-Oct-2017 02:12:18 UTC] PHP Stack trace:
+[03-Oct-2017 02:12:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab4/index.php:0

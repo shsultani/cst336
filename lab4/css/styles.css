@@ -1,0 +1,33 @@
+    body{
+        opacity:0.9;
+        width:100%;
+        text-align:center;
+        color:yellow;
+    }
+    
+    input {
+        font-size: 3em;
+        color: black;
+    }
+    
+    #carousel-example-generic {
+         margin: 0 auto;   
+         width: 700px;
+    }
+    
+    #layoutRadio {
+        display: inline-block; 
+        color: black; 
+        text-align: left; 
+        background-color: grey; 
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    #layout_h{
+        display: block; 
+        
+    }
+    #layout_v{
+        display: block; 
+    }
