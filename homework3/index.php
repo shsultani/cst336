@@ -69,7 +69,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Assignment 3: Calculator</title>
+<title>Homework 3: Calculator</title>
 
 <link rel="stylesheet" href="css/styles.css" type="text/css" />
 </head>
