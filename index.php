@@ -9,6 +9,8 @@
         <a href="lab4/index.php">lab4</a>
         <a href="homework3/index.php">homework3</a>
         <a href="lab5/index.php">lab5</a>
+        <a href="lab6/index.php">lab6</a>
 
+        
     </body>
 </html>
