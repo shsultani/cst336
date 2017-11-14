@@ -1166,3 +1166,107 @@
 [27-Oct-2017 05:16:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/lab5/displayCart.php on line 23
 [27-Oct-2017 05:16:13 UTC] PHP Stack trace:
 [27-Oct-2017 05:16:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab5/displayCart.php:0
+[14-Nov-2017 19:24:50 UTC] PHP Fatal error:  Call to undefined function displayBooks() in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 58
+[14-Nov-2017 19:24:50 UTC] PHP Stack trace:
+[14-Nov-2017 19:24:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
+[14-Nov-2017 19:25:20 UTC] PHP Fatal error:  Call to undefined function displayBooks() in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 58
+[14-Nov-2017 19:25:20 UTC] PHP Stack trace:
+[14-Nov-2017 19:25:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
+[14-Nov-2017 19:26:28 UTC] PHP Fatal error:  Call to undefined function displayBooks() in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 58
+[14-Nov-2017 19:26:28 UTC] PHP Stack trace:
+[14-Nov-2017 19:26:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
+[14-Nov-2017 19:26:41 UTC] PHP Fatal error:  Call to undefined function displayBooks() in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 58
+[14-Nov-2017 19:26:41 UTC] PHP Stack trace:
+[14-Nov-2017 19:26:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
+[14-Nov-2017 19:27:22 UTC] PHP Fatal error:  Call to undefined function displayBooks() in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 58
+[14-Nov-2017 19:27:22 UTC] PHP Stack trace:
+[14-Nov-2017 19:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
+[14-Nov-2017 19:27:24 UTC] PHP Fatal error:  Call to undefined function displayBooks() in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 58
+[14-Nov-2017 19:27:24 UTC] PHP Stack trace:
+[14-Nov-2017 19:27:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
+[14-Nov-2017 19:27:42 UTC] PHP Fatal error:  Call to undefined function displayBooks() in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 58
+[14-Nov-2017 19:27:42 UTC] PHP Stack trace:
+[14-Nov-2017 19:27:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
+[14-Nov-2017 19:40:55 UTC] PHP Fatal error:  Call to undefined function displayBooks() in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 58
+[14-Nov-2017 19:40:55 UTC] PHP Stack trace:
+[14-Nov-2017 19:40:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
+[14-Nov-2017 19:41:10 UTC] PHP Fatal error:  Call to undefined function displayBooks() in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 58
+[14-Nov-2017 19:41:10 UTC] PHP Stack trace:
+[14-Nov-2017 19:41:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
+[14-Nov-2017 19:43:34 UTC] PHP Fatal error:  Call to undefined function displayBooks() in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 58
+[14-Nov-2017 19:43:34 UTC] PHP Stack trace:
+[14-Nov-2017 19:43:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
+[14-Nov-2017 19:43:45 UTC] PHP Fatal error:  Call to undefined function displayBooks() in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 58
+[14-Nov-2017 19:43:45 UTC] PHP Stack trace:
+[14-Nov-2017 19:43:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
+[14-Nov-2017 19:44:55 UTC] PHP Fatal error:  Call to undefined function displayBooks() in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 58
+[14-Nov-2017 19:44:55 UTC] PHP Stack trace:
+[14-Nov-2017 19:44:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
+[14-Nov-2017 19:44:58 UTC] PHP Fatal error:  Call to undefined function displayBooks() in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 58
+[14-Nov-2017 19:44:58 UTC] PHP Stack trace:
+[14-Nov-2017 19:44:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
+[14-Nov-2017 19:45:00 UTC] PHP Fatal error:  Call to undefined function displayBooks() in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 58
+[14-Nov-2017 19:45:00 UTC] PHP Stack trace:
+[14-Nov-2017 19:45:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
+[14-Nov-2017 19:45:43 UTC] PHP Fatal error:  Call to undefined function displayBooks() in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 58
+[14-Nov-2017 19:45:43 UTC] PHP Stack trace:
+[14-Nov-2017 19:45:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
+[14-Nov-2017 19:45:49 UTC] PHP Fatal error:  Call to undefined function displayBooks() in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 58
+[14-Nov-2017 19:45:49 UTC] PHP Stack trace:
+[14-Nov-2017 19:45:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
+[14-Nov-2017 20:26:40 UTC] PHP Fatal error:  Call to undefined function passData() in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 13
+[14-Nov-2017 20:26:40 UTC] PHP Stack trace:
+[14-Nov-2017 20:26:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
+[14-Nov-2017 20:27:18 UTC] PHP Fatal error:  Call to undefined function display() in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 65
+[14-Nov-2017 20:27:18 UTC] PHP Stack trace:
+[14-Nov-2017 20:27:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
+[14-Nov-2017 20:30:22 UTC] PHP Fatal error:  Call to undefined function addingCart() in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 123
+[14-Nov-2017 20:30:22 UTC] PHP Stack trace:
+[14-Nov-2017 20:30:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
+[14-Nov-2017 20:30:24 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 34
+[14-Nov-2017 20:30:24 UTC] PHP Stack trace:
+[14-Nov-2017 20:30:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
+[14-Nov-2017 20:30:24 UTC] PHP   2. display() /home/ubuntu/workspace/cst336-github/teamproject/index.php:122
+[14-Nov-2017 20:30:24 UTC] PHP   3. loadAllBooks() /home/ubuntu/workspace/cst336-github/teamproject/index.php:22
+[14-Nov-2017 20:31:58 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 34
+[14-Nov-2017 20:31:58 UTC] PHP Stack trace:
+[14-Nov-2017 20:31:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
+[14-Nov-2017 20:31:58 UTC] PHP   2. display() /home/ubuntu/workspace/cst336-github/teamproject/index.php:119
+[14-Nov-2017 20:31:58 UTC] PHP   3. loadAllBooks() /home/ubuntu/workspace/cst336-github/teamproject/index.php:22
+[14-Nov-2017 20:32:05 UTC] PHP Fatal error:  Call to undefined function addingCart() in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 120
+[14-Nov-2017 20:32:05 UTC] PHP Stack trace:
+[14-Nov-2017 20:32:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
+[14-Nov-2017 20:32:07 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 34
+[14-Nov-2017 20:32:07 UTC] PHP Stack trace:
+[14-Nov-2017 20:32:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
+[14-Nov-2017 20:32:07 UTC] PHP   2. display() /home/ubuntu/workspace/cst336-github/teamproject/index.php:119
+[14-Nov-2017 20:32:07 UTC] PHP   3. loadAllBooks() /home/ubuntu/workspace/cst336-github/teamproject/index.php:22
+[14-Nov-2017 20:34:00 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 34
+[14-Nov-2017 20:34:00 UTC] PHP Stack trace:
+[14-Nov-2017 20:34:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
+[14-Nov-2017 20:34:00 UTC] PHP   2. display() /home/ubuntu/workspace/cst336-github/teamproject/index.php:119
+[14-Nov-2017 20:34:00 UTC] PHP   3. loadAllBooks() /home/ubuntu/workspace/cst336-github/teamproject/index.php:22
+[14-Nov-2017 20:34:04 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 34
+[14-Nov-2017 20:34:04 UTC] PHP Stack trace:
+[14-Nov-2017 20:34:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
+[14-Nov-2017 20:34:04 UTC] PHP   2. display() /home/ubuntu/workspace/cst336-github/teamproject/index.php:119
+[14-Nov-2017 20:34:04 UTC] PHP   3. loadAllBooks() /home/ubuntu/workspace/cst336-github/teamproject/index.php:22
+[14-Nov-2017 20:34:29 UTC] PHP Fatal error:  Call to undefined function addingCart() in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 120
+[14-Nov-2017 20:34:29 UTC] PHP Stack trace:
+[14-Nov-2017 20:34:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
+[14-Nov-2017 20:34:32 UTC] PHP Fatal error:  Call to undefined function addingCart() in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 120
+[14-Nov-2017 20:34:32 UTC] PHP Stack trace:
+[14-Nov-2017 20:34:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
+[14-Nov-2017 20:36:27 UTC] PHP Fatal error:  Call to undefined function addingCart() in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 120
+[14-Nov-2017 20:36:27 UTC] PHP Stack trace:
+[14-Nov-2017 20:36:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
+[14-Nov-2017 20:47:00 UTC] PHP Fatal error:  Call to undefined function loadBooksByYear() in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 18
+[14-Nov-2017 20:47:00 UTC] PHP Stack trace:
+[14-Nov-2017 20:47:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
+[14-Nov-2017 20:47:00 UTC] PHP   2. display() /home/ubuntu/workspace/cst336-github/teamproject/index.php:191
+[14-Nov-2017 20:55:54 UTC] PHP Parse error:  syntax error, unexpected '>' in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 175
+[14-Nov-2017 21:15:47 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336-github/teamproject/index.php on line 244
+[14-Nov-2017 21:15:47 UTC] PHP Stack trace:
+[14-Nov-2017 21:15:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
+[14-Nov-2017 21:15:47 UTC] PHP   2. display() /home/ubuntu/workspace/cst336-github/teamproject/index.php:340
+[14-Nov-2017 21:15:47 UTC] PHP   3. loadBooksByYear() /home/ubuntu/workspace/cst336-github/teamproject/index.php:18
