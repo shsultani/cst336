@@ -1,28 +1,39 @@
 <?php
-    include 'database.php';
-    $conn = getDataBaseConnection(); 
 
-    $sql = "SELECT * 
-            FROM admin 
-            WHERE userName = :username 
-            AND password = :password" ; 
+session_start(); 
+
+function loginProcess(){
     
-    $namedParameters = array();
-    $namedParameters[':username'] = $userName;
-    $namedParameters[':password'] = $password;
-    
-    $result = $conn->prepare($sql); 
-    $result->execute($namedParameters); 
-    $result = $result->fetchAll(); 
-    
-    if (empty($result)) {
-        echo "Wrong Username or password";
-    } else {
-        $_SESSION['username'] = $result['username'];
-        $_SESSION['adminName'] = $result['firstName'] . "  " . $result['lastName'];
+    if(isset($_POST['loginForm'])){
+        include 'database.php';
+        $conn = getDataBaseConnection(); 
         
-        header("Location: admin.php");
+        $username = $_POST['userName'];
+        $password = sha1($_POST['password']); 
+    
+        $sql = "SELECT * 
+                FROM admin 
+                WHERE userName = :userName 
+                AND password = :password" ; 
+        
+        $namedParameters = array();
+        $namedParameters[':userName'] = $userName;
+        $namedParameters[':password'] = $password;
+        
+        $stm = $conn->prepare($sql); 
+        $stm->execute($namedParameters); 
+        $result = $stm->fetch(); 
+        
+        if (empty($result)) {
+            echo "Wrong Username or password";
+        } else {
+            $_SESSION['userName'] = $result['userName'];
+            $_SESSION['adminName'] = $result['firstName'] . "  " . $result['lastName'];
+            
+            header("Location: admin.php");
+        }
     }
+}
 ?>
 
 <html>
@@ -31,11 +42,16 @@
     </head>
     <body>
         <h1>- Admin Login -</h1>
-        <form method="POST">
-            Username<input type="text" name="Username"/>
+        <div>
+        <form method="post">
+            Username<input type="userName" name="userName"/>
             <br>
-            Password<input type="text" name="Password"/>
-        <input type="submit" value="Submit"/>
+            Password<input type="password" name="password"/>
+            <input type="submit" name="loginForm" value="Submit"/>
         </form>
+        
+        <br/>
+        <?=loginProcess()?>
+        </div>
     </body>
 </html>

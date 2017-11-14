@@ -11,7 +11,8 @@ function userList(){
     $conn = getDataBaseConnection(); 
     
     $sql = "SELECT * 
-            FROM user"; 
+            FROM user 
+            ORDER By firstName"; 
             
     $stmt = $conn->prepare($sql); 
     $stmt->execute(); 
@@ -33,7 +34,7 @@ function userList(){
     </head>
     <body>
         <h1>Admin Main Page</h1>
-        <h2>Welcome <?=$_SESSION['userName']?>!</h2>
+        <h2>Welcome <?=$_SESSION['adminName']?>!</h2>
         
         <form action="addUser.php">
             <input type="submit" value="Add new user"/>
@@ -44,6 +45,17 @@ function userList(){
         </form>
         
         <br/>
+        
+        <?php
+         $users = userList();
+         
+         foreach($users as $user) {
+             echo $user['id'] . "  " . $user['firstName'] . " " . $user['lastName'];
+             
+             echo "[<a href='updateUser.php?userId=".$user['id']."'> Update </a>] ";
+             echo "[<a onclick='return confirmDelete()' href='deleteUser.php?userId=".$user['id']."'> Delete </a>] <br />";
+         }
+        ?>
         
     </body>
 </html>

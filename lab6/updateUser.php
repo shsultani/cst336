@@ -24,6 +24,18 @@ function getUserInfo() {
     return $record;
 }
 
+function departmentList(){
+      
+        global $conn;
+        
+        $sql = "SELECT * FROM Departments ORDER BY name";
+        $stmt = $conn->prepare($sql);
+        $stmt->execute();
+        $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
+        
+        return $records;
+}
+
  if (isset($_GET['updateUser'])) { //checks whether admin has submitted form.
      
      //echo "Form has been submitted!";
@@ -52,9 +64,6 @@ function getUserInfo() {
      
      
  }
-
-
-
 ?>
 
 
@@ -86,7 +95,19 @@ function getUserInfo() {
             <br />
             Department: 
             <select name="deptId">
-                <option value="" > Select One </option>
+                <option value="" > Select One </option
+                <?php
+                    
+                    $departments = departmentList();
+                    
+                    foreach($departments as $department) {
+                       echo "<option value='".$department['id']."' ";
+                       echo ($userInfo['deptId']==$department['id'])?" selected":"";
+                       echo "> " . $department['name']  . "</option>";  
+                    }
+                    
+                    
+                ?>
             </select>
             <input type="submit" value="Update User" name="updateUser">
         </form>
