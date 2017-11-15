@@ -11,7 +11,7 @@
         <a href="lab5/index.php">lab5</a>
         <a href="lab6/index.php">lab6</a>
         <a href="hangman/index.html">hangman</a>
-        <a href="SQL_Online_Catalog/index.php">Team Project</a>
+        <a href="bookCatalog/index.php">Team Project</a>
 
     </body>
 </html>
