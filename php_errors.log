@@ -1270,3 +1270,87 @@
 [14-Nov-2017 21:15:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/index.php:0
 [14-Nov-2017 21:15:47 UTC] PHP   2. display() /home/ubuntu/workspace/cst336-github/teamproject/index.php:340
 [14-Nov-2017 21:15:47 UTC] PHP   3. loadBooksByYear() /home/ubuntu/workspace/cst336-github/teamproject/index.php:18
+[14-Nov-2017 22:28:02 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336-github/SQL_Online_Catalog/index.php on line 2
+[14-Nov-2017 22:28:02 UTC] PHP Stack trace:
+[14-Nov-2017 22:28:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/SQL_Online_Catalog/index.php:0
+[14-Nov-2017 22:28:02 UTC] PHP Warning:  include(): Failed opening 'database.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336-github/SQL_Online_Catalog/index.php on line 2
+[14-Nov-2017 22:28:02 UTC] PHP Stack trace:
+[14-Nov-2017 22:28:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/SQL_Online_Catalog/index.php:0
+[14-Nov-2017 22:28:02 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336-github/SQL_Online_Catalog/index.php on line 3
+[14-Nov-2017 22:28:02 UTC] PHP Stack trace:
+[14-Nov-2017 22:28:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/SQL_Online_Catalog/index.php:0
+[14-Nov-2017 22:28:32 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336-github/SQL_Online_Catalog/index.php on line 2
+[14-Nov-2017 22:28:32 UTC] PHP Stack trace:
+[14-Nov-2017 22:28:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/SQL_Online_Catalog/index.php:0
+[14-Nov-2017 22:28:32 UTC] PHP Warning:  include(): Failed opening 'database.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336-github/SQL_Online_Catalog/index.php on line 2
+[14-Nov-2017 22:28:32 UTC] PHP Stack trace:
+[14-Nov-2017 22:28:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/SQL_Online_Catalog/index.php:0
+[14-Nov-2017 22:28:32 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336-github/SQL_Online_Catalog/index.php on line 3
+[14-Nov-2017 22:28:32 UTC] PHP Stack trace:
+[14-Nov-2017 22:28:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/SQL_Online_Catalog/index.php:0
+[14-Nov-2017 22:29:18 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336-github/SQL_Online_Catalog/index.php on line 2
+[14-Nov-2017 22:29:18 UTC] PHP Stack trace:
+[14-Nov-2017 22:29:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/SQL_Online_Catalog/index.php:0
+[14-Nov-2017 22:29:18 UTC] PHP Warning:  include(): Failed opening 'database.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336-github/SQL_Online_Catalog/index.php on line 2
+[14-Nov-2017 22:29:18 UTC] PHP Stack trace:
+[14-Nov-2017 22:29:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/SQL_Online_Catalog/index.php:0
+[14-Nov-2017 22:29:18 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336-github/SQL_Online_Catalog/index.php on line 3
+[14-Nov-2017 22:29:18 UTC] PHP Stack trace:
+[14-Nov-2017 22:29:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/SQL_Online_Catalog/index.php:0
+[14-Nov-2017 22:29:22 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336-github/SQL_Online_Catalog/index.php on line 2
+[14-Nov-2017 22:29:22 UTC] PHP Stack trace:
+[14-Nov-2017 22:29:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/SQL_Online_Catalog/index.php:0
+[14-Nov-2017 22:29:22 UTC] PHP Warning:  include(): Failed opening 'database.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336-github/SQL_Online_Catalog/index.php on line 2
+[14-Nov-2017 22:29:22 UTC] PHP Stack trace:
+[14-Nov-2017 22:29:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/SQL_Online_Catalog/index.php:0
+[14-Nov-2017 22:29:22 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336-github/SQL_Online_Catalog/index.php on line 3
+[14-Nov-2017 22:29:22 UTC] PHP Stack trace:
+[14-Nov-2017 22:29:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/SQL_Online_Catalog/index.php:0
+[14-Nov-2017 22:42:21 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336-github/teamproject/itemDetail.php on line 18
+[14-Nov-2017 22:42:21 UTC] PHP Stack trace:
+[14-Nov-2017 22:42:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/itemDetail.php:0
+[14-Nov-2017 22:42:21 UTC] PHP   2. displayInfo() /home/ubuntu/workspace/cst336-github/teamproject/itemDetail.php:48
+[14-Nov-2017 22:42:21 UTC] PHP   3. mysql_fetch_array() /home/ubuntu/workspace/cst336-github/teamproject/itemDetail.php:18
+[14-Nov-2017 22:43:50 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336-github/teamproject/itemDetail.php on line 18
+[14-Nov-2017 22:43:50 UTC] PHP Stack trace:
+[14-Nov-2017 22:43:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/itemDetail.php:0
+[14-Nov-2017 22:43:50 UTC] PHP   2. displayInfo() /home/ubuntu/workspace/cst336-github/teamproject/itemDetail.php:48
+[14-Nov-2017 22:43:50 UTC] PHP   3. mysql_fetch_array() /home/ubuntu/workspace/cst336-github/teamproject/itemDetail.php:18
+[14-Nov-2017 22:48:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/teamproject/itemDetail.php on line 18
+[14-Nov-2017 22:48:22 UTC] PHP Stack trace:
+[14-Nov-2017 22:48:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/itemDetail.php:0
+[14-Nov-2017 22:48:22 UTC] PHP   2. displayInfo() /home/ubuntu/workspace/cst336-github/teamproject/itemDetail.php:46
+[14-Nov-2017 22:49:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/teamproject/itemDetail.php on line 18
+[14-Nov-2017 22:49:04 UTC] PHP Stack trace:
+[14-Nov-2017 22:49:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/itemDetail.php:0
+[14-Nov-2017 22:49:04 UTC] PHP   2. displayInfo() /home/ubuntu/workspace/cst336-github/teamproject/itemDetail.php:46
+[14-Nov-2017 22:49:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/teamproject/itemDetail.php on line 18
+[14-Nov-2017 22:49:23 UTC] PHP Stack trace:
+[14-Nov-2017 22:49:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/itemDetail.php:0
+[14-Nov-2017 22:49:23 UTC] PHP   2. displayInfo() /home/ubuntu/workspace/cst336-github/teamproject/itemDetail.php:46
+[14-Nov-2017 22:50:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/teamproject/itemDetail.php on line 19
+[14-Nov-2017 22:50:09 UTC] PHP Stack trace:
+[14-Nov-2017 22:50:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/itemDetail.php:0
+[14-Nov-2017 22:50:09 UTC] PHP   2. displayInfo() /home/ubuntu/workspace/cst336-github/teamproject/itemDetail.php:47
+[14-Nov-2017 22:50:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/teamproject/itemDetail.php on line 18
+[14-Nov-2017 22:50:58 UTC] PHP Stack trace:
+[14-Nov-2017 22:50:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/itemDetail.php:0
+[14-Nov-2017 22:50:58 UTC] PHP   2. displayInfo() /home/ubuntu/workspace/cst336-github/teamproject/itemDetail.php:46
+[14-Nov-2017 22:52:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/teamproject/itemDetail.php on line 18
+[14-Nov-2017 22:52:30 UTC] PHP Stack trace:
+[14-Nov-2017 22:52:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/itemDetail.php:0
+[14-Nov-2017 22:52:30 UTC] PHP   2. displayInfo() /home/ubuntu/workspace/cst336-github/teamproject/itemDetail.php:46
+[14-Nov-2017 23:08:34 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, array given in /home/ubuntu/workspace/cst336-github/teamproject/itemDetail.php on line 20
+[14-Nov-2017 23:08:34 UTC] PHP Stack trace:
+[14-Nov-2017 23:08:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/teamproject/itemDetail.php:0
+[14-Nov-2017 23:08:34 UTC] PHP   2. displayInfo() /home/ubuntu/workspace/cst336-github/teamproject/itemDetail.php:38
+[14-Nov-2017 23:08:34 UTC] PHP   3. mysqli_fetch_row() /home/ubuntu/workspace/cst336-github/teamproject/itemDetail.php:20
+[14-Nov-2017 23:30:18 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336-github/SQL_Online_Catalog/index.php on line 2
+[14-Nov-2017 23:30:18 UTC] PHP Stack trace:
+[14-Nov-2017 23:30:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/SQL_Online_Catalog/index.php:0
+[14-Nov-2017 23:30:18 UTC] PHP Warning:  include(): Failed opening 'database.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336-github/SQL_Online_Catalog/index.php on line 2
+[14-Nov-2017 23:30:18 UTC] PHP Stack trace:
+[14-Nov-2017 23:30:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/SQL_Online_Catalog/index.php:0
+[14-Nov-2017 23:30:18 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336-github/SQL_Online_Catalog/index.php on line 3
+[14-Nov-2017 23:30:18 UTC] PHP Stack trace:
+[14-Nov-2017 23:30:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/SQL_Online_Catalog/index.php:0
