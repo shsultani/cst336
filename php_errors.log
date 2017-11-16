@@ -1166,3 +1166,15 @@
 [27-Oct-2017 05:16:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336-github/lab5/displayCart.php on line 23
 [27-Oct-2017 05:16:13 UTC] PHP Stack trace:
 [27-Oct-2017 05:16:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab5/displayCart.php:0
+[16-Nov-2017 02:09:17 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336-github/midtermRedo/program2.php on line 41
+[16-Nov-2017 02:09:17 UTC] PHP Stack trace:
+[16-Nov-2017 02:09:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/midtermRedo/program2.php:0
+[16-Nov-2017 02:09:17 UTC] PHP   2. movieAvgDuration() /home/ubuntu/workspace/cst336-github/midtermRedo/program2.php:131
+[16-Nov-2017 02:52:00 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336-github/midtermRedo/program2.php on line 41
+[16-Nov-2017 02:52:00 UTC] PHP Stack trace:
+[16-Nov-2017 02:52:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/midtermRedo/program2.php:0
+[16-Nov-2017 02:52:00 UTC] PHP   2. movieAvgDuration() /home/ubuntu/workspace/cst336-github/midtermRedo/program2.php:131
+[16-Nov-2017 02:52:22 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336-github/midtermRedo/program2.php on line 41
+[16-Nov-2017 02:52:22 UTC] PHP Stack trace:
+[16-Nov-2017 02:52:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/midtermRedo/program2.php:0
+[16-Nov-2017 02:52:22 UTC] PHP   2. movieAvgDuration() /home/ubuntu/workspace/cst336-github/midtermRedo/program2.php:131
