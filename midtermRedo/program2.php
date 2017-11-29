@@ -35,8 +35,10 @@
     function movieAvgDuration(){
         global $conn;
         
-        $sql = "SELECT movie_category, COUNT(DISTINCT movie_category), AVG(duration) 
-                FROM movie";
+        $sql = "SELECT movie_category, count(movie_title) AS number_of_movies, avg(duration) AS avg_duration 
+        FROM movie 
+        GROUP BY movie_category";
+
                 
         $stm= $conn->prepare($sql); 
         $stm->execute();
@@ -52,8 +54,8 @@
         foreach($record as $records) {
         echo "<tr>";
         echo "<td>" . $records['movie_category'] . "</td>";
-        echo "<td>" . $records['COUNT(DISTINCT movie_category)'] . "</td>";
-        echo "<td>" . $records['AVG(duration)'] . "</td>"; 
+        echo "<td>" . $records['number_of_movies'] . "</td>";
+        echo "<td>" . $records['avg_duration'] . "</td>"; 
         echo "</tr>";
         }
         echo "</table>";
@@ -96,7 +98,31 @@
     }
     
     function winnerLess(){
+        global $conn;
         
+        $sql = "SELECT firstName, lastName
+                FROM celebrity c LEFT JOIN oscar o
+                on c.celebrityId = o.celebrityId
+                WHERE o.celebrityId IS NULL
+                ORDER BY c.lastName";
+        
+        $statement= $conn->prepare($sql); 
+        $statement->execute();
+        $record = $statement->fetchALL(PDO::FETCH_ASSOC);
+        
+        echo "<table>";
+        echo "<tr>";
+        echo "<th>First Name</th>";
+        echo "<th>Last Name</th>";
+        echo "</tr>";
+        
+        foreach($record as $records) {
+        echo "<tr>";
+        echo "<td>" . $records['c.firstName'] . "</td>";
+        echo "<td>" . $records['c.lastName'] . "</td>";
+        echo "</tr>";
+        }
+        echo "</table>";
     }
 ?>
 
@@ -113,7 +139,7 @@
                     <td>Name and country of birth of female actresses who were NOT born in the USA, ordered by last name</td>
                     <td width="20" align="center">10</td>
                 </tr>  
-                <tr style="color:#600000">
+                <tr style="color:#006000">
                     <td>2</td>
                     <td>Number of movies per category and their average duration</td>
                     <td width="20" align="center">10</td>
@@ -157,6 +183,9 @@
             
             <h1>Longest Movies after 2000 </h1>
             <?=longestMovie()?>
+            
+            <h1>Actors and actresses who have not won an academy award</h1>
+            <?=winnerLess()?>
             
         </body>
     </main>

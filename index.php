@@ -26,6 +26,14 @@
         <a href="midtermRedo/program1.php">Midterm Problem1</a>
         <a href="midtermRedo/program2.php">Midterm Problem2</a>
         
+        <br>
+        <a href="1MIDTERM_RETAKE/problem1.php">midterm retake 1</a>
+        <a href="1MIDTERM_RETAKE/problem2.php">midterm retake 2</a>
+        <br>
+        
+        <br>
+        <a href="homework4/index.php">homework4</a>
+        <br>
         
 
     </body>
