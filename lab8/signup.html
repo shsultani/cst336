@@ -1,0 +1,76 @@
+<html>
+
+    <head>
+        <title>Lab 8: Sign Up </title>
+        <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    </head>
+    
+    <body>
+    
+        <div class="container">
+        
+            <form id="signup" onsubmit="return validateForm()" action="addUser.php">
+            
+                <div class="header">
+                
+                    <h3>Sign Up</h3>
+                
+                </div>
+                
+                <div class="sep"></div>
+                
+                <div class="inputs">
+                
+                    First Name: <br><input type="text" id="firstName" name="first_name"  /><br>
+                    <span id="firstNameError" class="error"></span>
+                    <br />
+                    Last Name: <br><input type="text" id="lastName" name="last_name"   /><br>
+                    <span id="lastNameError" class="error"></span>
+                    <br /> 
+                    
+                    Email: <br><input type="text" id="email" name="email" placeholder="user@example.com" /><br>
+                    <span id="emailError" class="error"></span>
+                    <br />
+                    
+                    Phone Number: <br><input type="text" id="phone" name="phone" placeholder="(000) 000-0000"  /><br>
+                    <span id="phoneError" class="error"></span>
+                    <br />
+                    
+                    Zip Code: <br><input type="text" id="zipCode" name="zipCode" /><br>
+                    
+                    City: <span id="city"></span><br />
+                    
+                    Latitude: <span id="latitude"></span>
+                    <br />
+                    
+                    Longitude: <span id="longitude"></span>
+                    <br /><br>
+                    
+                    State: <input type="text" name="state" id="state" placeholder="Enter two-letter State abbreviation" >
+                    <br>
+                    
+                    County: <select name="county" id="county"></select>
+                    <br>
+                    
+                    <br />
+                    Desired Username: <br><input type="text" id="username" name="username" /><br>
+                        <span id="usernameError" class="error"></span>
+                    <br />
+                    
+                    Password: <br><input type="password" id="password" name="password" /><br>
+                    <span id="passwordError" class="error"></span>
+                    <br />
+                    
+                    Type Password Again: <br><input type="password" id="passwordTy" name="passwordTy" /><br>
+                    <span id="passwordTyError" class="error"></span>
+                    <br />
+                    
+                    <input type="submit" value="Sign up!" />
+            
+                </div>
+            
+            </form>
+        
+        </div>
+    </body>
+</html>

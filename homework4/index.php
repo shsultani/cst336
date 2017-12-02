@@ -1,12 +1,13 @@
 <script>
-    
+    var result = ""; 
     
     if(document.getElementById("first") != null){
         
+        console.log("works"); 
         if((document.getElementById("first")!="") && (document.getElementById("second")!="") && (document.getElementById("operation")!="")){
         	var first = document.getElementById("first");
 	        var second = document.getElementById("second");
-	        var result = "";
+	        //var result = "";
 	        
 	        if (document.getElementById("operation") == '+'){
 	            var num1 = first;
@@ -37,7 +38,6 @@
 	            num1 = first;
 	            num2 = second;
 	            result = Math.pow(num1,num2);
-	           
 	        }
 	        else if (document.getElementById("operation") == 'log'){
 	            num1 = first;
@@ -84,12 +84,12 @@
             <td><input type="text" name="second" placeholder="Type a number"></td>
           </tr>
           <tr>
-            <td><br>Result </td>
+            <td><br>Result: </td>
             <td><br>
              <script>
-                 if(document.getElementById('first') != null ){
-                    print result;
-                }
+                //  if(document.getElementById("first") != null ){
+                //     document.getElementById("first").innerHTML = result; 
+                // }
              </script>
             </td>
           </tr>
