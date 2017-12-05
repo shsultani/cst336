@@ -1,7 +1,166 @@
+<!DOCTYPE html>
 <html>
-
     <head>
         <title>Lab 8: Sign Up </title>
+        
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    
+        <script>
+            
+        function validateForm(){
+            
+            var isValid = true;
+            $("#firstNameError").html("");
+            $("#lastNameError").html("");
+            $("#emailError").html("");
+            $("#phoneError").html("");
+            $("#usernameError").html("");
+            $("#passwordError").html("");
+            $("#passwordTyError").html("");
+            //alert( $("#firstName").val()  );
+            
+            //checking that first name is not left blank
+            if ($("#firstName").val().trim().length == 0) {
+                $("#firstNameError").html("*First name must not be blank!");
+                isValid = false;
+            }
+            if ($("#lastName").val().trim().length == 0) {
+                $("#lastNameError").html("*Last name must not be blank!");
+                isValid = false;
+            }
+            if (/^[a-z_0-9]+@[a-z]+\.[a-z]{3}$/i.test( $("#email").val() ) == false )  {
+                $("#emailError").html("*Email has the wrong format!");
+                isValid = false;
+            }
+            if (/^[(]{0,1}[0-9]{3}[)]{0,1}[-\s\.]{0,1}[0-9]{3}[-\s\.]{0,1}[0-9]{4}$/i.test( $("#phone").val() ) == false )  {
+                $("#phoneError").html("*Phone number has the wrong format!");
+                isValid = false;
+            }
+            if (/(?=.*[A-Z])(?=.*[1-9])/i.test($("#password").val()) == false) {
+                $("#passwordError").html("*Password has the wrong format!");
+                isValid = false;
+            }
+            if ($("#password").val() != $("#passwordTy").val()) {
+                $("#passwordTyError").html("*Passwords do not match!");
+                isValid = false;
+            }
+            if (!checkUsername()) {
+                isValid = false;    
+            }
+            return isValid;
+        }
+        
+        function checkUsername(){
+            //alert( $("#username").val()  );
+            var isValid = true;
+            if ($("#username").val().trim().length < 6) {
+                $("#usernameError").html("*Username must be at least 6 characters!");
+                isValid = false;
+            } else {
+                $.ajax({
+                type : "GET",
+                url : "verifyUsername.php",
+                dataType : "json",
+                data : {
+                    "username" : $('#username').val()
+                },
+                success : function(data, status) {
+                    if (!data) {
+                        $("#usernameError").html("Available!");
+                        $("#usernameError").css("color", "green");
+                        $("#username").css("backgroundColor", "lime");
+                        isValid = true;
+                    } else {
+                        $("#usernameError").html("NOT available");
+                        $("#usernameError").css("color", "red");
+                        $("#username").css("backgroundColor", "red");
+                        $("#username").focus();
+                        isValid = false;
+                    }
+                },
+                complete : function(data, status) {//optional, used for debugging purposes
+                //alert(status);
+                }
+                });
+            }
+            return isValid;
+        }
+        
+        function checkPassword() {
+            if ($("#password").val().trim().length < 7) {
+            $("#passwordError").html("*Password must be at least 6 characters!");
+            isValid = false;
+            }
+            if (!/[0-9]/.test($('#password').val())) {
+            $('#passwordError').html("*Password must have one digit!");
+            isValid = false;
+            }
+            
+            if (!/[A-Z]/.test($('#password').val())) {
+            $('#passwordError').html("*Password must have one uppercase character!");
+            isValid = false;
+            }
+        }
+
+        $(document).ready( function(){ 
+        
+            $("#username").change( function(){  checkUsername() } );
+            
+            
+            $("#password").change( function(){  checkPassword() } );
+            
+            $("#zipCode").change( function(){  
+            //alert($("#zipCode").val())});
+                $.ajax({
+                    type : "GET",
+                    url : "https://cst336-lara4594.c9users.io/api/cityInfoByZip.php",
+                    dataType : "json",
+                    data : {
+                        "zip_code" : $("#zipCode").val()
+                    },
+                    success : function(data, status) {
+                        //alert(data["city"]);
+                        $("#city").html(data["city"]);
+                        $("#latitude").html(data["latitude"]);
+                        $("#longitude").html(data["longitude"]);
+                    },
+                    complete : function(data, status) {//optional, used for debugging purposes
+                        //alert(status);
+                    }
+                });
+            });
+            
+            $("#state").change(function(){
+                $("#county").html("<option> - Select One - </option>");
+                $.ajax({
+                    type : "GET",
+                    url : "https://cst336-lara4594.c9users.io/api/countiesByState.php",
+                    dataType : "json",
+                    data : {
+                        "state" : $("#state").val()
+                    },
+                    success : function(data, status) {
+                        //alert(data[0].county);
+                        //$("#county").html("<option> - Select One - </option>");
+                        
+                        for(var i=0; i < data.length; i++){
+                           $("#county").append("<option>" + data[i].county + "</option>");
+                        }
+                    },
+                    
+                    complete : function(data, status) {//optional, used for debugging purposes
+                    //alert(status);
+                    }
+                });    
+            });
+        });
+        </script>
+        <style>
+            .error {
+                 color: red;
+                 font-size: 12px;
+            }
+        </style>
         <link rel="stylesheet" href="css/styles.css" type="text/css" />
     </head>
     
@@ -12,13 +171,10 @@
             <form id="signup" onsubmit="return validateForm()" action="addUser.php">
             
                 <div class="header">
-                
                     <h3>Sign Up</h3>
-                
                 </div>
                 
                 <div class="sep"></div>
-                
                 <div class="inputs">
                 
                     First Name: <br><input type="text" id="firstName" name="first_name"  /><br>
@@ -68,7 +224,6 @@
                     <input type="submit" value="Sign up!" />
             
                 </div>
-            
             </form>
         
         </div>
