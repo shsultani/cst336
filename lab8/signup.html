@@ -17,9 +17,7 @@
             $("#usernameError").html("");
             $("#passwordError").html("");
             $("#passwordTyError").html("");
-            //alert( $("#firstName").val()  );
             
-            //checking that first name is not left blank
             if ($("#firstName").val().trim().length == 0) {
                 $("#firstNameError").html("*First name must not be blank!");
                 isValid = false;
@@ -51,7 +49,6 @@
         }
         
         function checkUsername(){
-            //alert( $("#username").val()  );
             var isValid = true;
             if ($("#username").val().trim().length < 6) {
                 $("#usernameError").html("*Username must be at least 6 characters!");
@@ -78,8 +75,7 @@
                         isValid = false;
                     }
                 },
-                complete : function(data, status) {//optional, used for debugging purposes
-                //alert(status);
+                complete : function(data, status) {
                 }
                 });
             }
@@ -87,8 +83,8 @@
         }
         
         function checkPassword() {
-            if ($("#password").val().trim().length < 7) {
-            $("#passwordError").html("*Password must be at least 6 characters!");
+            if ($("#password").val().trim().length < 8) {
+            $("#passwordError").html("*Password must be at least 8 characters!");
             isValid = false;
             }
             if (!/[0-9]/.test($('#password').val())) {
@@ -101,7 +97,7 @@
             isValid = false;
             }
         }
-
+1
         $(document).ready( function(){ 
         
             $("#username").change( function(){  checkUsername() } );
@@ -110,7 +106,7 @@
             $("#password").change( function(){  checkPassword() } );
             
             $("#zipCode").change( function(){  
-            //alert($("#zipCode").val())});
+
                 $.ajax({
                     type : "GET",
                     url : "https://cst336-lara4594.c9users.io/api/cityInfoByZip.php",
@@ -119,13 +115,12 @@
                         "zip_code" : $("#zipCode").val()
                     },
                     success : function(data, status) {
-                        //alert(data["city"]);
+                        
                         $("#city").html(data["city"]);
                         $("#latitude").html(data["latitude"]);
                         $("#longitude").html(data["longitude"]);
                     },
-                    complete : function(data, status) {//optional, used for debugging purposes
-                        //alert(status);
+                    complete : function(data, status) {
                     }
                 });
             });
@@ -140,16 +135,14 @@
                         "state" : $("#state").val()
                     },
                     success : function(data, status) {
-                        //alert(data[0].county);
-                        //$("#county").html("<option> - Select One - </option>");
+                    
                         
                         for(var i=0; i < data.length; i++){
                            $("#county").append("<option>" + data[i].county + "</option>");
                         }
                     },
                     
-                    complete : function(data, status) {//optional, used for debugging purposes
-                    //alert(status);
+                    complete : function(data, status) {
                     }
                 });    
             });

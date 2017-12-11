@@ -1199,3 +1199,16 @@
 [16-Nov-2017 23:08:45 UTC] PHP Stack trace:
 [16-Nov-2017 23:08:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/1MIDTERM_RETAKE/problem1.php:0
 [16-Nov-2017 23:08:45 UTC] PHP   2. displayTable() /home/ubuntu/workspace/cst336-github/1MIDTERM_RETAKE/problem1.php:211
+[05-Dec-2017 01:32:06 UTC] PHP Warning:  include(../Includes/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336-github/FinalProject/index.php on line 3
+[05-Dec-2017 01:32:07 UTC] PHP Stack trace:
+[05-Dec-2017 01:32:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/FinalProject/index.php:0
+[05-Dec-2017 01:32:07 UTC] PHP Warning:  include(): Failed opening '../Includes/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336-github/FinalProject/index.php on line 3
+[05-Dec-2017 01:32:07 UTC] PHP Stack trace:
+[05-Dec-2017 01:32:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/FinalProject/index.php:0
+[05-Dec-2017 01:32:07 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336-github/FinalProject/index.php on line 4
+[05-Dec-2017 01:32:07 UTC] PHP Stack trace:
+[05-Dec-2017 01:32:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/FinalProject/index.php:0
+[05-Dec-2017 01:33:59 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336-github/FinalProject/index.php on line 299
+[05-Dec-2017 01:34:10 UTC] PHP Fatal error:  Call to undefined function passData() in /home/ubuntu/workspace/cst336-github/FinalProject/index.php on line 191
+[05-Dec-2017 01:34:10 UTC] PHP Stack trace:
+[05-Dec-2017 01:34:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/FinalProject/index.php:0
