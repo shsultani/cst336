@@ -97,7 +97,7 @@
             isValid = false;
             }
         }
-1
+         
         $(document).ready( function(){ 
         
             $("#username").change( function(){  checkUsername() } );
@@ -108,17 +108,17 @@
             $("#zipCode").change( function(){  
 
                 $.ajax({
-                    type : "GET",
-                    url : "https://cst336-lara4594.c9users.io/api/cityInfoByZip.php",
+                    type : "get",
+                    url : "http://hosting.otterlabs.org/laramiguel/ajax/zip.php",
                     dataType : "json",
                     data : {
                         "zip_code" : $("#zipCode").val()
                     },
                     success : function(data, status) {
                         
-                        $("#city").html(data["city"]);
-                        $("#latitude").html(data["latitude"]);
-                        $("#longitude").html(data["longitude"]);
+                        $("#city").html(data.city);
+                        $("#latitude").html(data.latitude);
+                        $("#longitude").html(data.longitude);
                     },
                     complete : function(data, status) {
                     }
@@ -126,20 +126,19 @@
             });
             
             $("#state").change(function(){
-                $("#county").html("<option> - Select One - </option>");
                 $.ajax({
-                    type : "GET",
-                    url : "https://cst336-lara4594.c9users.io/api/countiesByState.php",
+                    type : "get",
+                    url : "http://hosting.otterlabs.org/laramiguel/ajax/countyList.php",
                     dataType : "json",
                     data : {
                         "state" : $("#state").val()
                     },
                     success : function(data, status) {
-                    
-                        
-                        for(var i=0; i < data.length; i++){
-                           $("#county").append("<option>" + data[i].county + "</option>");
+                        $("#county").html("<option> - Select One - </option>");
+                        for(var i = 0; i < data.length; i++){
+                           $("#county").append("<option>" + data.counties[i].county + "</option>");
                         }
+                        //$("#county").html("<option> - Select One - </option>");
                     },
                     
                     complete : function(data, status) {
