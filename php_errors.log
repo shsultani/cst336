@@ -1269,3 +1269,11 @@
 [11-Dec-2017 23:59:07 UTC] PHP Stack trace:
 [11-Dec-2017 23:59:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab6/loginProcess.php:0
 [11-Dec-2017 23:59:07 UTC] PHP   2. PDOStatement->execute() /home/ubuntu/workspace/cst336-github/lab6/loginProcess.php:20
+[12-Dec-2017 06:39:24 UTC] PHP Warning:  PDOStatement::execute(): MySQL server has gone away in /home/ubuntu/workspace/cst336-github/lab6/loginProcess.php on line 20
+[12-Dec-2017 06:39:24 UTC] PHP Stack trace:
+[12-Dec-2017 06:39:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab6/loginProcess.php:0
+[12-Dec-2017 06:39:24 UTC] PHP   2. PDOStatement->execute(*uninitialized*) /home/ubuntu/workspace/cst336-github/lab6/loginProcess.php:20
+[12-Dec-2017 06:39:24 UTC] PHP Warning:  PDOStatement::execute(): Error reading result set's header in /home/ubuntu/workspace/cst336-github/lab6/loginProcess.php on line 20
+[12-Dec-2017 06:39:24 UTC] PHP Stack trace:
+[12-Dec-2017 06:39:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab6/loginProcess.php:0
+[12-Dec-2017 06:39:24 UTC] PHP   2. PDOStatement->execute(*uninitialized*) /home/ubuntu/workspace/cst336-github/lab6/loginProcess.php:20

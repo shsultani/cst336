@@ -190,10 +190,6 @@ session_start();
         <h1>Library Home</h1><br>
         <?=passData("")?>
      
-        <h2><a href="https://docs.google.com/a/csumb.edu/document/d/1rUOo67yyxISDikHktech7R0PvrIM76h5BLA_JDrm5KQ/edit?usp=sharing">Document Link</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://cst336-ginos89.c9users.io/phpmyadmin/index.php?db=tcp&table=user&target=tbl_sql.php&token=0ae431272fe361086e990b8af02b3ce6#PMAURL-3:sql.php?db=library&table=admin&server=1&target=&token=0ae431272fe361086e990b8af02b3ce6">Database Link</a>
-        </h2>
         <h4><a href="admin.php">Administrator</a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a href="cart.php">View Cart</a></h4>
@@ -265,13 +261,7 @@ session_start();
         <br><br>
         </main>
      <br><br><br><a class='link_button' href='https://cst336-ginos89.c9users.io/homepage.html'>Homepage</a>
-    <footer>
-    <br><br>
-        <hr>
-        <br> &copy; Luigi D'Antonio, 2016.
-        </br>Disclaimer: The information on this page is used for academic purposes.</br>
-        <img src="../../Img/csumb-logo.png" alt:"CSUMB logo"/>
-    </footer>
+
     </body>
 
     <script>

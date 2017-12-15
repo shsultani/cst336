@@ -18,15 +18,15 @@ $namedParameters[':password'] = $password;
 
 $statement = $conn->prepare($sql);
 $statement->execute($namedParameters);  
-$record = $statement->fetch(PDO::FETCH_ASSOC);
+$record = $statement->fetch();
 print_r($record);
 
-// if (empty($result)) {
-//     echo "Wrong Username or password";
-// } else {
-//     $_SESSION['userName'] = $result['userName'];
-//     $_SESSION['adminName'] = $result['firstName'] . "  " . $result['lastName'];
+if (empty($result)) {
+    echo "Wrong Username or password";
+} else {
+    $_SESSION['userName'] = $result['userName'];
+    $_SESSION['adminName'] = $result['firstName'] . "  " . $result['lastName'];
     
-//     header('Location: admin.php');
-// }
+    header('Location: admin.php');
+}
 ?>
