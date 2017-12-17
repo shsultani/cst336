@@ -1277,3 +1277,13 @@
 [12-Dec-2017 06:39:24 UTC] PHP Stack trace:
 [12-Dec-2017 06:39:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/lab6/loginProcess.php:0
 [12-Dec-2017 06:39:24 UTC] PHP   2. PDOStatement->execute(*uninitialized*) /home/ubuntu/workspace/cst336-github/lab6/loginProcess.php:20
+[15-Dec-2017 01:52:41 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336-github/finalproject/index.php on line 279
+[15-Dec-2017 01:52:55 UTC] PHP Fatal error:  Call to undefined function passData() in /home/ubuntu/workspace/cst336-github/finalproject/index.php on line 184
+[15-Dec-2017 01:52:55 UTC] PHP Stack trace:
+[15-Dec-2017 01:52:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/finalproject/index.php:0
+[15-Dec-2017 01:53:22 UTC] PHP Fatal error:  Call to undefined function passData() in /home/ubuntu/workspace/cst336-github/finalproject/index.php on line 184
+[15-Dec-2017 01:53:22 UTC] PHP Stack trace:
+[15-Dec-2017 01:53:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/finalproject/index.php:0
+[17-Dec-2017 18:50:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336-github/finalproject/index.php on line 280
+[17-Dec-2017 18:50:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336-github/finalproject/index.php on line 280
+[17-Dec-2017 18:50:52 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336-github/finalproject/index.php on line 277

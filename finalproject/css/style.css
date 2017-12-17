@@ -1,0 +1,133 @@
+html {
+    font-family: sans-serif;
+}
+
+table {
+    margin: 0 auto;
+    margin-top: 15px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+table,
+th,
+td {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+th {
+    color: red;
+    background: #DCDCDC;
+}
+
+h1 {
+    font-size: 55px;
+    color: green;
+    font-family: Comic Sans MS;
+    font-weight: bold;
+    
+}
+
+.word {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+img {
+    padding-right: 7px;
+    display: inline-block;
+}
+
+a:link {
+    color: green;
+}
+
+a:hover {
+    text-decoration: none;
+    background: white;
+    color: red;
+}
+a:visited{
+    color:blue;
+}
+hr {
+    background-color: #000000;
+    height: 2px;
+    text-align: center;
+}
+
+body {
+    background-image: url("https://static1.squarespace.com/static/536d22efe4b09f73bc3bb79f/t/54ed3cb6e4b03a84d2b4e0f7/1424833718893/openbookgraybackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+input,
+select {
+    font-size: 12px;
+    color: blue;
+    background-color: #DCDCDC;
+    font-weight: bold;
+    padding: 1px;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.70);
+    padding-bottom: 5px;
+}
+
+h4 {
+    background: #d6f28e;
+    text-align: center;
+}
+
+.filter {
+    font-weight: bold;
+    color: blue;
+    columns: 100px 4;
+    margin-left: 15px;
+}
+.fil {
+    font-weight: bold;
+    color: blue;
+    margin-left: 15px;
+}
+
+.login {
+    align-content: center;
+}
+
+.logout {
+    margin-right: 20px;
+    float: center;
+}
+
+.admin_list {
+    list-style-type: square;
+}
+
+.admin_list li {
+    padding: 5px;
+}
+
+.report {
+    margin-left: 10px;
+}
+
+footer {
+    font-weight: bold;
+    color: #120A8F;
+    text-align: center;
+}
+
+
+h5 {
+    background: #d6f28e;
+    font-size: 20px;
+}
+.name {
+    color: blue;
+}
