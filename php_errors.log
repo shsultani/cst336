@@ -1287,3 +1287,21 @@
 [17-Dec-2017 18:50:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336-github/finalproject/index.php on line 280
 [17-Dec-2017 18:50:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336-github/finalproject/index.php on line 280
 [17-Dec-2017 18:50:52 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336-github/finalproject/index.php on line 277
+[18-Dec-2017 05:04:33 UTC] PHP Warning:  include(../Includes/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336-github/finalproject/admin.php on line 6
+[18-Dec-2017 05:04:33 UTC] PHP Stack trace:
+[18-Dec-2017 05:04:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/finalproject/admin.php:0
+[18-Dec-2017 05:04:33 UTC] PHP Warning:  include(): Failed opening '../Includes/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336-github/finalproject/admin.php on line 6
+[18-Dec-2017 05:04:33 UTC] PHP Stack trace:
+[18-Dec-2017 05:04:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/finalproject/admin.php:0
+[18-Dec-2017 05:04:33 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336-github/finalproject/admin.php on line 7
+[18-Dec-2017 05:04:33 UTC] PHP Stack trace:
+[18-Dec-2017 05:04:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/finalproject/admin.php:0
+[18-Dec-2017 05:50:13 UTC] PHP Warning:  include(../Includes/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336-github/finalproject/admin.php on line 6
+[18-Dec-2017 05:50:13 UTC] PHP Stack trace:
+[18-Dec-2017 05:50:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/finalproject/admin.php:0
+[18-Dec-2017 05:50:13 UTC] PHP Warning:  include(): Failed opening '../Includes/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336-github/finalproject/admin.php on line 6
+[18-Dec-2017 05:50:13 UTC] PHP Stack trace:
+[18-Dec-2017 05:50:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/finalproject/admin.php:0
+[18-Dec-2017 05:50:13 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336-github/finalproject/admin.php on line 7
+[18-Dec-2017 05:50:13 UTC] PHP Stack trace:
+[18-Dec-2017 05:50:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336-github/finalproject/admin.php:0

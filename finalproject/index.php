@@ -76,7 +76,6 @@ function loadBookByFilter($category, $cat_sort, $year, $year_sort, $version, $ve
                       catagory $cat_sort, year $year_sort, version $ver_sort";
         }
     }
-    // Code for $filter here, if statements.
     $back_link = "categoryFilter=".$category."&sortOrder=".$cat_sort."&greaterThan=".$year."&sortOrderYear=".
         $year_sort."&versionEqualTo=".$version."&sortOrderVer=".$ver_sort."&FilterSubmit=Search";
     $statement= $dbConn->prepare($sql);
@@ -91,7 +90,7 @@ function loadBookByFilter($category, $cat_sort, $year, $year_sort, $version, $ve
         echo "<th>Category</th>";
         echo "<th>Year</th>";
         echo "<th>Version</th>";
-        echo "<th>ISBN</th>";
+        echo "<th>Book ID</th>";
         echo "<th></th>";
         echo "<th></th>";
         echo "</tr>";
@@ -100,10 +99,10 @@ function loadBookByFilter($category, $cat_sort, $year, $year_sort, $version, $ve
             echo "<tr>";
             echo "<td>" . $record['title'] . "</td>";
             echo "<td>" . $record['author'] . "</td>";
-            echo "<td>" . $record['catagory'] . "</td>";
+            echo "<td>" . $record['category'] . "</td>";
             echo "<td>" . $record['year'] . "</td>";
             echo "<td>" . $record['version'] . "</td>";
-            echo "<td>" . $record['bookId'] . "</td>";
+            echo "<td>" . $record['bookID'] . "</td>";
             echo "<td><a href='moreInfo.php?bookId=" . $record['bookId'] . "&".$back_link."'>More Info</a></td>";
             echo "<td><a href='#' onclick='AddToCart(" .$record['bookId']. "); return false;'>Add To Cart</a></td>";
             echo "</tr>";
@@ -168,7 +167,7 @@ if (isset($_GET['bookISBN'])) {
 <!doctype html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="sss/style.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <title>Final Project</title>
         <meta charset="utf-8">
     
@@ -195,10 +194,10 @@ if (isset($_GET['bookISBN'])) {
                 Category: 
                 <select name="categoryFilter">
                     <option value="all">All Category</option>
-                    <option value="Business">Business</option>
-                    <option value="Computer Science">Computer Science</option>
-                    <option value="Literature">Literature</option>
-                    <option value="Math">Math</option>
+                    <option value="Horror">Horror</option>
+                    <option value="Fiction">Fiction</option>
+                    <option value="Non-Fiction">Non-Fiction</option>
+                    <option value="Mystery">Mystery</option>
                 </select>
                 <select name="sortOrder">
                     <option value="ASC">Ascending</option>

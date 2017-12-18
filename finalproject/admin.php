@@ -3,8 +3,8 @@ session_start();
 if(!isset($_SESSION['logged_in'])) {
     $_SESSION['logged_in'] = 0;
 }
-include '../Includes/dbConnection.php';
-$dbConn = getDatabaseConnection('library');
+include 'database.php';
+$dbConn = getDatabaseConnection();
 
 if($_SESSION['logged_in'] == 1) {
     header('Location: administrator.php');
@@ -15,7 +15,7 @@ if($_SESSION['logged_in'] == 1) {
         $password = $_POST['password'];
         $sql = "SELECT * 
                 FROM
-                      admin
+                      admin2
                 WHERE
                       user_name LIKE '$user_name' AND password LIKE '$password'";
         $statement= $dbConn->prepare($sql);

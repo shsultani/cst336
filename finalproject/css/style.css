@@ -39,18 +39,6 @@ img {
     display: inline-block;
 }
 
-a:link {
-    color: green;
-}
-
-a:hover {
-    text-decoration: none;
-    background: white;
-    color: red;
-}
-a:visited{
-    color:blue;
-}
 hr {
     background-color: #000000;
     height: 2px;

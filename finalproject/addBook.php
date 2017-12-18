@@ -1,7 +1,7 @@
 <?php
 session_start();
 include 'database.php';
-$dbConn2 = getDatabaseConnection('library');
+$dbConn2 = getDatabaseConnection();
 
 function displayBook() {
     global $dbConn2;
@@ -24,17 +24,17 @@ function displayBook() {
         echo "<th>Category</th>";
         echo "<th>Year</th>";
         echo "<th>Version</th>";
-        echo "<th>ISBN</th>";
+        echo "<th>Book ID</th>";
         echo "</tr>";
 
         foreach($records as $record) {
             echo "<tr>";
             echo "<td>" . $record['title'] . "</td>";
             echo "<td>" . $record['author'] . "</td>";
-            echo "<td>" . $record['catagory'] . "</td>";
+            echo "<td>" . $record['category'] . "</td>";
             echo "<td>" . $record['year'] . "</td>";
             echo "<td>" . $record['version'] . "</td>";
-            echo "<td>" . $record['bookId'] . "</td>";
+            echo "<td>" . $record['bookID'] . "</td>";
             echo "</tr>";
         }
         echo "</table>";
@@ -42,10 +42,10 @@ function displayBook() {
 
 }
 
-function addBook($title, $author, $category, $year, $version, $isbn) {
+function addBook($title, $author, $category, $year, $version, $bookID) {
     global $dbConn2;
-    $sql = "INSERT INTO books (title, author, catagory, year, version, bookId)
-            VALUES ('$title', '$author', '$category', '$year', '$version', '$isbn')";
+    $sql = "INSERT INTO books (title, author, category, year, version, bookId)
+            VALUES ('$title', '$author', '$category', '$year', '$version', '$bookID')";
 
     $statement= $dbConn2->prepare($sql);
     $statement->execute();
@@ -66,17 +66,17 @@ if(isset($_GET['logout'])) {
     exit;
 }else {
     if (isset($_POST['title']) && isset($_POST['author']) && isset($_POST['category'])
-        && isset($_POST['year']) && isset($_POST['version']) && isset($_POST['isbn'])
+        && isset($_POST['year']) && isset($_POST['version']) && isset($_POST['bookID'])
     ) {
         echo addBook($_POST['title'], $_POST['author'], $_POST['category'], $_POST['year'],
-            $_POST['version'], $_POST['isbn']);
+            $_POST['version'], $_POST['bookID']);
     } else {
         ?>
 
         <!doctype html>
         <html lang="en">
         <head>
-            <link rel="stylesheet" type="text/css" href="Css/style.css">
+            <link rel="stylesheet" type="text/css" href="css/style.css">
             <title>Administrator</title>
             
     <meta charset="utf-8">
@@ -93,14 +93,14 @@ if(isset($_GET['logout'])) {
                 <input type="text" name="title" placeholder="Title">
                 <input type="text" name="author" placeholder="Author">
                 <select name="category">
-                    <option value="Business">Business</option>
-                    <option value="Computer Science">Computer Science</option>
-                    <option value="Literature">Literature</option>
-                    <option value="Math">Math</option>
+                    <option value="Horror">Horror</option>
+                    <option value="Fiction">Fiction</option>
+                    <option value="Non-Fiction">Non-Fiction</option>
+                    <option value="Mystery">Mystery</option>
                 </select>
                 <input type="text" name="year" placeholder="Year">
                 <input type="text" name="version" placeholder="Version">
-                <input type="text" name="isbn" placeholder="ISBN">
+                <input type="text" name="bookID" placeholder="Book ID">
                 <input class='link' type="submit" value="Add New Book">
             </form>
             <br><br>

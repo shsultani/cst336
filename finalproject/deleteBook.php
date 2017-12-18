@@ -24,7 +24,7 @@ function displayBook() {
         echo "<th>Category</th>";
         echo "<th>Year</th>";
         echo "<th>Version</th>";
-        echo "<th>ISBN</th>";
+        echo "<th>Book ID</th>";
         echo "<th>Delete</th>";
         echo "</tr>";
 
@@ -52,7 +52,7 @@ function removeBook($toRemove) {
 
     $statement= $dbConn2->prepare($sql);
     $statement->execute();
-    return("Book with ISBN ".$toRemove." is deleted from the database");
+    return("Book with Book ID ".$toRemove." is deleted from the database");
 }
 if($_SESSION['logged_in'] != 1) {
     header('Location: admin.php');
@@ -71,7 +71,7 @@ if(isset($_GET['logout'])) {
         <!doctype html>
         <html lang="en">
         <head>
-            <link rel="stylesheet" type="text/css" href="Css/style.css">
+            <link rel="stylesheet" type="text/css" href="css/style.css">
             <title>Administrator</title>
             
     <meta charset="utf-8">
