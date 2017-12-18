@@ -14,7 +14,7 @@ function displayCart() {
 
     $sql = "SELECT * 
             FROM books
-            WHERE bookId IN (0";
+            WHERE bookID IN (0";
 
     foreach ($isbns as $isbn) {
         $sql .= ", " . $isbn;

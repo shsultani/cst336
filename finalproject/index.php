@@ -1,7 +1,7 @@
 <?php
 session_start();
 include 'database.php';
-$dbConn = getDatabaseConnection('library');
+$dbConn = getDatabaseConnection();
 
 function loadBookByFilter($category, $cat_sort, $year, $year_sort, $version, $ver_sort) {
     global $dbConn;
@@ -103,8 +103,8 @@ function loadBookByFilter($category, $cat_sort, $year, $year_sort, $version, $ve
             echo "<td>" . $record['year'] . "</td>";
             echo "<td>" . $record['version'] . "</td>";
             echo "<td>" . $record['bookID'] . "</td>";
-            echo "<td><a href='moreInfo.php?bookId=" . $record['bookId'] . "&".$back_link."'>More Info</a></td>";
-            echo "<td><a href='#' onclick='AddToCart(" .$record['bookId']. "); return false;'>Add To Cart</a></td>";
+            echo "<td><a href='moreInfo.php?bookID=" . $record['bookID'] . "&".$back_link."'>More Info</a></td>";
+            echo "<td><a href='#' onclick='AddToCart(" .$record['bookID']. "); return false;'>Add To Cart</a></td>";
             echo "</tr>";
         }
 
@@ -136,7 +136,7 @@ function AddtoCart($book) {
         return("Book already in cart.");
     }
     global $dbConn;
-    $sql2 = "SELECT * FROM checkouts WHERE bookId = '$book'";
+    $sql2 = "SELECT * FROM checkouts WHERE bookID = '$book'";
     $statement2= $dbConn->prepare($sql2);
     $statement2->execute();
     $records2 = $statement2->fetchALL(PDO::FETCH_ASSOC);
@@ -148,14 +148,14 @@ function AddtoCart($book) {
             $temp = $_SESSION['isbns'];
             $temp[] = $book;
             $_SESSION['isbns'] = $temp;
-            return("Book with ISBN ".$book." successfully added to cart");
+            return("Book with Book ID  ".$book." successfully added to cart");
         }
     }
     else {
         $temp = $_SESSION['isbns'];
         $temp[] = $book;
         $_SESSION['isbns'] = $temp;
-        return("Book with ISBN ".$book." successfully added to cart");
+        return("Book with Book ID ".$book." successfully added to cart");
     }
 }
 

@@ -2,7 +2,6 @@
 include 'database.php';
 $dbConn2 = getDatabaseConnection();
 
-global $gIsbn;
 
 function displayBook() {
         session_start();
@@ -17,7 +16,7 @@ function displayBook() {
         global $dbConn2;
         $sql = "SELECT * 
                 FROM books
-                WHERE bookID LIKE '$bookId'";
+                WHERE bookID LIKE '$bookID'";
                 
         $statement= $dbConn2->prepare($sql); 
         $statement->execute();
@@ -68,7 +67,7 @@ function displayBook() {
 <!doctype html>
 <html lang="en">
         <head>
-                <link rel="stylesheet" type="text/css" href="Css/style.css">
+                <link rel="stylesheet" type="text/css" href="css/style.css">
                 <title>More Info</title>
                 
     <meta charset="utf-8">
