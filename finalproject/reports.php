@@ -86,10 +86,10 @@ if(isset($_GET['logout'])) {
             </html>
         ';
     } elseif (isset($_GET['getNumberCat'])) {
-        $business = getCountCat('Business');
-        $cs = getCountCat('Computer Science');
-        $lit = getCountCat('Literature');
-        $math = getCountCat('Math');
+        $horror = getCountCat('Horror');
+        $mystery = getCountCat('Mystery');
+        $fiction = getCountCat('Fiction');
+        $nonfiction = getCountCat('Non-Fiction');
         echo '
             <!doctype html>
             <html>
@@ -102,10 +102,10 @@ if(isset($_GET['logout'])) {
                 <br>
                 <h1>Report Generated</h1>
                 <br>
-                <h2>There are <font color="red">' . $business . ' </font> books in Business category.</h2>
-                <h2>There are <font color="red">' . $cs . ' </font> books in Computer Science category.</h2>
-                <h2>There are <font color="red">' . $lit . '</font> books in Literature category.</h2>
-                <h2>There are <font color="red">' . $math . '</font> books in Math category.</h2>
+                <h2>There are <font color="red">' . $mystery . ' </font> books in Mystery category.</h2>
+                <h2>There are <font color="red">' . $nonfiction . ' </font> books in Non-Fiction category.</h2>
+                <h2>There are <font color="red">' . $fiction . '</font> books in Fiction category.</h2>
+                <h2>There are <font color="red">' . $horro . '</font> books in Horror category.</h2>
                 <br>
                 <h2><a class="link" href="?logout" class="logout">Logout</a></h2><br />
                 <hr>

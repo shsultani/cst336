@@ -32,11 +32,11 @@ function displayBook() {
             echo "<tr>";
             echo "<td>" . $record['title'] . "</td>";
             echo "<td>" . $record['author'] . "</td>";
-            echo "<td>" . $record['catagory'] . "</td>";
+            echo "<td>" . $record['category'] . "</td>";
             echo "<td>" . $record['year'] . "</td>";
             echo "<td>" . $record['version'] . "</td>";
-            echo "<td>" . $record['bookId'] . "</td>";
-            echo "<td><a href='#' onclick='DeleteBook(". $record['bookId'] ."); return false;'>Delete Book</a></td>";
+            echo "<td>" . $record['bookID'] . "</td>";
+            echo "<td><a href='#' onclick='DeleteBook(". $record['bookID'] ."); return false;'>Delete Book</a></td>";
             echo "</tr>";
         }
 

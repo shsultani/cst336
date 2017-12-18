@@ -37,7 +37,7 @@ function displayCart() {
         echo "<th>Category</th>";
         echo "<th>Year</th>";
         echo "<th>Version</th>";
-        echo "<th>ISBN</th>";
+        echo "<th>Book ID </th>";
         echo "<th>Remove</th>";
         echo "</tr>";
 
@@ -48,8 +48,8 @@ function displayCart() {
             echo "<td>" . $record['catagory'] . "</td>";
             echo "<td>" . $record['year'] . "</td>";
             echo "<td>" . $record['version'] . "</td>";
-            echo "<td>" . $record['bookId'] . "</td>";
-            echo "<td><a href='#' onclick='RemoveFrmCart(". $record['bookId'] ."); return false;'>Remove</a></td>";
+            echo "<td>" . $record['bookID'] . "</td>";
+            echo "<td><a href='#' onclick='RemoveFrmCart(". $record['bookID'] ."); return false;'>Remove</a></td>";
             echo "</tr>";
         }
 
@@ -60,7 +60,7 @@ function displayCart() {
 
 function removeCart($toRemove) {
     $_SESSION['isbns'] = array_diff($_SESSION['isbns'], array($toRemove));
-    return("Book with ISBN ".$toRemove." is removed from the cart");
+    return("Book with Book ID ".$toRemove." is removed from the cart");
 }
 
 if (isset($_GET['removeISBN'])) {

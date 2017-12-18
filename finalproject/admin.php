@@ -55,9 +55,6 @@ if($_SESSION['logged_in'] == 1) {
         <div align="center" class="login"><strong>
             <form action="admin.php" method="post">
                 <br />
-                <p align="center"style="font-size:20px"><strong>For demonstration purpose, use the following details:<br />
-                <p align="center" style="padding: 1px">Usernames:
-                <span class="name">root</span><br />Password: <span class="name">s3cr3t</span></p></strong></p>
             <br >
                 Username: 
                 <input type="text" name="username" placeholder="Username">

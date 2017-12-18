@@ -7,17 +7,17 @@ global $gIsbn;
 function displayBook() {
         session_start();
         
-        $_SESSION['currentId'] = $_GET['bookId'];
+        $_SESSION['currentId'] = $_GET['bookID'];
         
-        $bookId = $_GET['bookId'];
+        $bookId = $_GET['bookID'];
         
         global $id;
-        $id = $bookId;
+        $id = $bookID;
         
         global $dbConn2;
         $sql = "SELECT * 
                 FROM books
-                WHERE bookId LIKE '$bookId'";
+                WHERE bookID LIKE '$bookId'";
                 
         $statement= $dbConn2->prepare($sql); 
         $statement->execute();
@@ -25,7 +25,7 @@ function displayBook() {
         
         $sql2 = "SELECT * 
                 FROM checkouts
-                WHERE bookId LIKE '$id'";
+                WHERE bookID LIKE '$id'";
                 
         $statement2= $dbConn2->prepare($sql2); 
         $statement2->execute();
@@ -45,7 +45,7 @@ function displayBook() {
                 echo "<th>Category</th>";
                 echo "<th>Year</th>";
                 echo "<th>Version</th>";
-                echo "<th>ISBN</th>";
+                echo "<th>Book ID</th>";
                 echo "<th>Status</th>";
             echo "</tr>";
             
@@ -55,7 +55,7 @@ function displayBook() {
             echo "<td>" . $records[0]['catagory'] . "</td>";
             echo "<td>" . $records[0]['year'] . "</td>";
             echo "<td>" . $records[0]['version'] . "</td>";
-            echo "<td>" . $records[0]['bookId'] . "</td>";
+            echo "<td>" . $records[0]['bookID'] . "</td>";
             echo "<td>" . $status . "</td>";
         echo "</tr>";
         

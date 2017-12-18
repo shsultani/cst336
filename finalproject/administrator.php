@@ -10,7 +10,7 @@ if(isset($_GET['logout'])) {
     exit;
 }else {
     include 'database.php';
-    $dbConn = getDatabaseConnection('library');
+    $dbConn = getDatabaseConnection();
     function DisplayCheckout() {
         global $dbConn;
         $sql = "SELECT * 
@@ -26,7 +26,7 @@ if(isset($_GET['logout'])) {
         if($statement->rowCount() > 0) {
             echo "<table>";
             echo "<tr>";
-            echo "<th>ISBN</th>";
+            echo "<th>Book ID</th>";
             echo "<th>Checkout Date</th>";
             echo "<th>Due Date</th>";
             echo "<th>Status</th>";
@@ -36,7 +36,7 @@ if(isset($_GET['logout'])) {
 
             foreach($records as $record) {
                 echo "<tr>";
-                echo "<td>" . $record['bookId'] . "</td>";
+                echo "<td>" . $record['bookID'] . "</td>";
                 echo "<td>" . $record['checkoutDate'] . "</td>";
                 echo "<td>" . $record['dueDate'] . "</td>";
                 echo "<td>" . $record['status'] . "</td>";
